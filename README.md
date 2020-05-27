@@ -7,55 +7,55 @@ Currently starting with the `core` repo to persit its test results.
 Since this repo might be used to keep results from multiple dotCMS repos, branches/commits, test type and sometimes database type, we need to introduce a directory structure similar to this one:
 ```
 projects
-|--core
-|  |--<branch>
-|  |  |--curl
-|  |  |  |--mysql
-|  |  |  |  |__reports
-|  |  |  |     |__html
-|  |  |  |        |__index.html
-|  |  |  |__postgres
-|  |  |     |__reports
-|  |  |        |__html
-|  |  |           |__index.html
-|  |  |--integration
-|  |  |  |--mysql
-|  |  |  |  |__reports
-|  |  |  |     |__html
-|  |  |  |        |__index.html
-|  |  |  |__postgres
-|  |  |     |__reports
-|  |  |        |__html
-|  |  |           |__index.html
-|  |  |__unit
-|  |     |__reports
-|  |        |__html
-|  |           |__index.html
-|  |__17bc4fd9
-|     |--curl
-|     |  |--mysql
-|     |  |  |__reports
-|     |  |     |__html
-|     |  |        |__index.html
-|     |  |__postgres
-|     |     |__reports
-|     |        |__html
-|     |           |__index.html
-|     |--integration
-|     |  |--mysql
-|     |  |  |__reports
-|     |  |     |__html
-|     |  |        |__index.html
-|     |  |__postgres
-|     |     |__reports
-|     |        |__html
-|     |           |__index.html
-|     |__unit
-|        |__reports
-|           |__html
-|              |__index.html
+└──core
+|  └──<branch>
+|  |  └──curl
+|  |  |  └──mysql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
+|  |  |  └──postgres
+|  |  |     └──reports
+|  |  |        └──html
+|  |  |           └──index.html
+|  |  └──integration
+|  |  |  └──mysql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
+|  |  |  └──postgres
+|  |  |     └──reports
+|  |  |        └──html
+|  |  |           └──index.html
+|  |  └──unit
+|  |     └──reports
+|  |        └──html
+|  |           └──index.html
+|  └──17bc4fd9
+|     └──curl
+|     |  └──mysql
+|     |  |  └──reports
+|     |  |     └──html
+|     |  |        └──index.html
+|     |  └──postgres
+|     |     └──reports
+|     |        └──html
+|     |           └──index.html
+|     └──integration
+|     |  └──mysql
+|     |  |  └──reports
+|     |  |     └──html
+|     |  |        └──index.html
+|     |  └──postgres
+|     |     └──reports
+|     |        └──html
+|     |           └──index.html
+|     └──unit
+|        └──reports
+|           └──html
+|              └──index.html
 |
 |
-|__core-web
-...
+└──core-web
+   └──...
 ```

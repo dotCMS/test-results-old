@@ -54,8 +54,8 @@ projects
 |        |__reports
 |           |__html
 |              |__index.html
-
-
+|
+|
 |__core-web
 ...
 ```

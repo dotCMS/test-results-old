@@ -10,16 +10,20 @@ projects
 └──core
 |  └──<branch>
 |  |  └──curl
-|  |  |  └──mysql
-|  |  |  |  └──reports
-|  |  |  |     └──html
-|  |  |  |        └──index.html
 |  |  |  └──postgres
 |  |  |     └──reports
 |  |  |        └──html
 |  |  |           └──index.html
 |  |  └──integration
+|  |  |  └──mssql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
 |  |  |  └──mysql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
+|  |  |  └──oracle
 |  |  |  |  └──reports
 |  |  |  |     └──html
 |  |  |  |        └──index.html
@@ -31,21 +35,13 @@ projects
 |  |     └──reports
 |  |        └──html
 |  |           └──index.html
-|  └──17bc4fd9
+|  └──<commit/sha>
 |     └──curl
 |     |  └──mysql
 |     |  |  └──reports
 |     |  |     └──html
 |     |  |        └──index.html
-|     |  └──postgres
-|     |     └──reports
-|     |        └──html
-|     |           └──index.html
 |     └──integration
-|     |  └──mysql
-|     |  |  └──reports
-|     |  |     └──html
-|     |  |        └──index.html
 |     |  └──postgres
 |     |     └──reports
 |     |        └──html
@@ -59,4 +55,4 @@ projects
 └──core-web
    └──...
 ```
-Similar to the current tests, it will create a folder for the current commit and clean up the branch folder (is it does not exists it creates it) and store the latest test results there.
+Similar to the tests running at **Travis**, it will create a folder for the current commit and clean up the branch folder (is it does not exists it creates it) and store the latest test results there.

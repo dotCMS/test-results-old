@@ -10,16 +10,20 @@ projects
 └──core
 |  └──<branch>
 |  |  └──curl
-|  |  |  └──mysql
-|  |  |  |  └──reports
-|  |  |  |     └──html
-|  |  |  |        └──index.html
 |  |  |  └──postgres
 |  |  |     └──reports
 |  |  |        └──html
 |  |  |           └──index.html
 |  |  └──integration
+|  |  |  └──mssql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
 |  |  |  └──mysql
+|  |  |  |  └──reports
+|  |  |  |     └──html
+|  |  |  |        └──index.html
+|  |  |  └──oracle
 |  |  |  |  └──reports
 |  |  |  |     └──html
 |  |  |  |        └──index.html
@@ -31,21 +35,13 @@ projects
 |  |     └──reports
 |  |        └──html
 |  |           └──index.html
-|  └──17bc4fd9
+|  └──<commit/sha>
 |     └──curl
 |     |  └──mysql
 |     |  |  └──reports
 |     |  |     └──html
 |     |  |        └──index.html
-|     |  └──postgres
-|     |     └──reports
-|     |        └──html
-|     |           └──index.html
 |     └──integration
-|     |  └──mysql
-|     |  |  └──reports
-|     |  |     └──html
-|     |  |        └──index.html
 |     |  └──postgres
 |     |     └──reports
 |     |        └──html

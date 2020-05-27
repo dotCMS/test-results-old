@@ -59,3 +59,4 @@ projects
 └──core-web
    └──...
 ```
+Similar to the current tests, it will create a folder for the current commit and clean up the branch folder (is it does not exists it creates it) and store the latest test results there.

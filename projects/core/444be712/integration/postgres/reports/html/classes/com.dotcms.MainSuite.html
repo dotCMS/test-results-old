@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">-</div>
+<div class="counter">0.003s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">-</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,16 +61,145 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
+<a href="#tab1">Tests</a>
 </li>
 <li>
-<a href="#tab2">Standard error</a>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="initializationError"></a>
+<h3 class="failures">initializationError</h3>
+<span class="code">
+<pre>java.lang.Error: Cannot explode 'WorkflowToolTest.testFire' using 'fireTestCases' due to: Exception while invoking dataprovider method 'fireTestCases': com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.tngtech.java.junit.dataprovider.internal.TestGenerator.generateExplodedTestMethodsFor(TestGenerator.java:47)
+	at com.tngtech.java.junit.dataprovider.DataProviderRunner.generateExplodedTestMethodsFor(DataProviderRunner.java:206)
+	at com.tngtech.java.junit.dataprovider.DataProviderRunner.computeTestMethods(DataProviderRunner.java:158)
+	at com.tngtech.java.junit.dataprovider.DataProviderRunner.validateInstanceMethods(DataProviderRunner.java:98)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)
+	at com.tngtech.java.junit.dataprovider.DataProviderRunner.collectInitializationErrors(DataProviderRunner.java:73)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:416)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:84)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at com.tngtech.java.junit.dataprovider.DataProviderRunner.&lt;init&gt;(DataProviderRunner.java:64)
+	at com.dotcms.junit.CustomDataProviderRunner.&lt;init&gt;(CustomDataProviderRunner.java:16)
+	at com.dotcms.junit.MainBaseSuite.getRunners(MainBaseSuite.java:34)
+	at com.dotcms.junit.MainBaseSuite.&lt;init&gt;(MainBaseSuite.java:14)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:107)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Exception while invoking dataprovider method 'fireTestCases': com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.tngtech.java.junit.dataprovider.internal.TestGenerator.explodeTestMethod(TestGenerator.java:85)
+	at com.tngtech.java.junit.dataprovider.internal.TestGenerator.generateExplodedTestMethodsFor(TestGenerator.java:45)
+	... 51 more
+Caused by: com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.dotcms.datagen.TestDataUtils.getEmployeeContent(TestDataUtils.java:1053)
+	at com.dotcms.datagen.TestDataUtils.getEmployeeContent(TestDataUtils.java:1008)
+	at com.dotcms.rendering.velocity.viewtools.WorkflowToolTest.fireTestCases(WorkflowToolTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at com.tngtech.java.junit.dataprovider.internal.TestGenerator.explodeTestMethod(TestGenerator.java:82)
+	... 52 more
+Caused by: java.lang.RuntimeException: com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.dotcms.datagen.ContentletDataGen.checkin(ContentletDataGen.java:269)
+	at com.dotcms.datagen.ContentletDataGen.persist(ContentletDataGen.java:189)
+	at com.dotcms.datagen.ContentletDataGen.nextPersisted(ContentletDataGen.java:175)
+	at com.dotcms.datagen.TestDataUtils.getEmployeeContent(TestDataUtils.java:1048)
+	... 62 more
+Caused by: com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.dotmarketing.db.HibernateUtil.commitTransaction(HibernateUtil.java:1158)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:62)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4030)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:8178)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody130(ESContentletAPIImpl.java:3941)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure131.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotcms.aspects.interceptors.CloseDBIfOpenedMethodInterceptor.invoke(CloseDBIfOpenedMethodInterceptor.java:29)
+	at com.dotcms.aspects.aspectj.CloseDBIfOpenedAspect.invoke(CloseDBIfOpenedAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:3936)
+	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.checkin(ContentletAPIInterceptor.java:257)
+	at com.dotcms.datagen.ContentletDataGen.checkin(ContentletDataGen.java:267)
+	... 65 more
+Caused by: com.dotmarketing.business.DotStateException: Validation Failed: 1: index is missing;
+	at com.dotmarketing.db.DotRunnableThread.run(DotRunnableThread.java:56)
+	at com.dotmarketing.db.HibernateUtil.finalizeCommitListeners(HibernateUtil.java:1068)
+	at com.dotmarketing.db.HibernateUtil.commitTransaction(HibernateUtil.java:1152)
+	... 79 more
+Caused by: org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: index is missing;
+	at org.elasticsearch.action.bulk.BulkRequest.validate(BulkRequest.java:383)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1420)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1394)
+	at org.elasticsearch.client.RestHighLevelClient.bulk(RestHighLevelClient.java:492)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.lambda$7(ContentletIndexAPIImpl.java:683)
+	at com.rainerhahnekamp.sneakythrow.Sneaky.lambda$sneaked$8(Sneaky.java:223)
+	at com.rainerhahnekamp.sneakythrow.Sneaky.sneak(Sneaky.java:73)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.putToIndex(ContentletIndexAPIImpl.java:682)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.putToIndex(ContentletIndexAPIImpl.java:697)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.indexContentListNow(ContentletIndexAPIImpl.java:657)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.addContentToIndex(ContentletIndexAPIImpl.java:649)
+	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.lambda$3(ContentletIndexAPIImpl.java:608)
+	at com.dotmarketing.db.HibernateUtil$DotSyncRunnable.run(HibernateUtil.java:929)
+	at com.dotmarketing.db.DotRunnableThread.internalRunner(DotRunnableThread.java:99)
+	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:158)
+	at com.dotmarketing.db.DotRunnableThread.run(DotRunnableThread.java:53)
+	... 81 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -80,9 +209,14 @@
 <th>Result</th>
 </tr>
 </thead>
+<tr>
+<td class="failures">initializationError</td>
+<td>0.003s</td>
+<td class="failures">failed</td>
+</tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>Working Directory = /build/src/core/dotCMS/.
@@ -109,6 +243,13 @@ Working Directory = /build/src/core/dotCMS/.
 path      :/WEB-INF/messages/Language-ext.properties
 workingDir:/build/src/core/dotCMS/.
 newPath   :/build/src/core/dotCMS/./src/main/webapp/WEB-INF/messages/Language-ext.properties
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=javax.servlet)(version&gt;=3.1.0)(!(version&gt;=4.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=javax.servlet.http)(version&gt;=3.1.0)(!(version&gt;=4.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.dto)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework.dto)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.6)) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.6.0)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=com.dotmarketing.osgi)(version&gt;=0.0.0)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=0.0.0)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=javax.servlet.http)(version&gt;=0.0.0)) -&gt; [org.apache.felix.framework [0](R 0)]
@@ -119,20 +260,18 @@ DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wirin
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.apache.felix.http.api)(version&gt;=0.0.0)) -&gt; [org.apache.felix.http.api [5](R 5.0)]
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.service.http)(version&gt;=0.0.0)) -&gt; [org.apache.felix.http.api [5](R 5.0)]
 DEBUG: WIRE: [com.dotcms.tika [1](R 1.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.8)) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=javax.servlet)(version&gt;=3.1.0)(!(version&gt;=4.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=javax.servlet.http)(version&gt;=3.1.0)(!(version&gt;=4.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.dto)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework.dto)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.6)) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.http.api [5](R 5.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.6.0)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: DYNAMIC WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (osgi.wiring.package=*) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [slf4j.api [8](R 8.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.5.0)) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: FRAGMENT WIRE: [slf4j.simple [9](R 9.0)] osgi.wiring.host; (&amp;(osgi.wiring.host=slf4j.api)(bundle-version&gt;=0.0.0)) -&gt; [slf4j.api [8](R 8.0)]
+DEBUG: FRAGMENT WIRE: [slf4j.simple [9](R 9.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.5.0)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [jcl.over.slf4j [2](R 2.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.7.25)) -&gt; [slf4j.api [8](R 8.0)]
 DEBUG: WIRE: [jcl.over.slf4j [2](R 2.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.slf4j.spi)(version&gt;=1.7.25)) -&gt; [slf4j.api [8](R 8.0)]
 DEBUG: WIRE: [jcl.over.slf4j [2](R 2.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.5.0)) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: FRAGMENT WIRE: [slf4j.simple [9](R 9.0)] osgi.wiring.host; (&amp;(osgi.wiring.host=slf4j.api)(bundle-version&gt;=0.0.0)) -&gt; [slf4j.api [8](R 8.0)]
-DEBUG: FRAGMENT WIRE: [slf4j.simple [9](R 9.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.5.0)) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [slf4j.api [8](R 8.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.5.0)) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.service.coordinator)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [osgi.cmpn [7](R 7.0)]
+DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0))) -&gt; [osgi.cmpn [7](R 7.0)]
+DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
+DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.7)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=javax.naming) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=javax.naming.directory) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=javax.servlet) -&gt; [org.apache.felix.framework [0](R 0)]
@@ -140,11 +279,6 @@ DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=ja
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=javax.sql) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=javax.xml.parsers) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [osgi.cmpn [7](R 7.0)] osgi.wiring.package; (osgi.wiring.package=org.osgi.framework) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.service.coordinator)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [osgi.cmpn [7](R 7.0)]
-DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0))) -&gt; [osgi.cmpn [7](R 7.0)]
-DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.util.tracker)(version&gt;=1.5.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
-DEBUG: WIRE: [org.apache.felix.configadmin [3](R 3.0)] osgi.ee; (&amp;(osgi.ee=JavaSE)(version=1.7)) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [org.apache.felix.fileinstall [4](R 4.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.6.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [org.apache.felix.fileinstall [4](R 4.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework.startlevel)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
 DEBUG: WIRE: [org.apache.felix.fileinstall [4](R 4.0)] osgi.wiring.package; (&amp;(osgi.wiring.package=org.osgi.framework.wiring)(version&gt;=1.0.0)(!(version&gt;=2.0.0))) -&gt; [org.apache.felix.framework [0](R 0)]
@@ -274,19 +408,16 @@ DEBUG: DYNAMIC WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (osgi.wir
 DEBUG: DYNAMIC WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (osgi.wiring.package=*) -&gt; [org.apache.tika.core [11](R 11.0)]
 DEBUG: DYNAMIC WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (osgi.wiring.package=*) -&gt; [org.apache.tika.core [11](R 11.0)]
 DEBUG: DYNAMIC WIRE: [com.dotcms.tika [1](R 1.0)] osgi.wiring.package; (osgi.wiring.package=*) -&gt; [org.apache.tika.core [11](R 11.0)]
-
-
-
 </pre>
 </span>
 </div>
-<div id="tab2" class="tab">
+<div id="tab3" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 19, 2020 2:26:30 PM org.apache.tika.config.InitializableProblemHandler$3 handleInitializableProblem
+Jun 19, 2020 10:41:34 PM org.apache.tika.config.InitializableProblemHandler$3 handleInitializableProblem
 WARNING: JBIG2ImageReader not loaded. jbig2 files will be ignored
 See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
 for optional dependencies.
@@ -297,111 +428,10 @@ J2KImageReader not loaded. JPEG2000 files will not be processed.
 See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
 for optional dependencies.
 
-Jun 19, 2020 2:26:30 PM org.apache.tika.config.InitializableProblemHandler$3 handleInitializableProblem
+Jun 19, 2020 10:41:34 PM org.apache.tika.config.InitializableProblemHandler$3 handleInitializableProblem
 WARNING: org.xerial's sqlite-jdbc is not loaded.
 Please provide the jar on your classpath to parse sqlite files.
 See tika-parsers/pom.xml for the correct version.
-Jun 19, 2020 2:26:43 PM com.hazelcast.config.AbstractXmlConfigHelper
-WARNING: Name of the hazelcast schema location incorrect using default
-Jun 19, 2020 2:26:43 PM com.hazelcast.instance.AddressPicker
-INFO: [LOCAL] [dev] [3.9.2] Prefer IPv4 stack is true.
-Jun 19, 2020 2:26:43 PM com.hazelcast.instance.AddressPicker
-INFO: [LOCAL] [dev] [3.9.2] Picked [172.20.0.3]:5701, using socket ServerSocket[addr=/0.0.0.0,localport=5701], bind any local is true
-Jun 19, 2020 2:26:43 PM com.hazelcast.system
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Hazelcast 3.9.2 (20180103 - 17e4ec3) starting at [172.20.0.3]:5701
-Jun 19, 2020 2:26:43 PM com.hazelcast.system
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Copyright (c) 2008-2017, Hazelcast, Inc. All Rights Reserved.
-Jun 19, 2020 2:26:43 PM com.hazelcast.system
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Configured Hazelcast Serialization version: 1
-Jun 19, 2020 2:26:44 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Backpressure is disabled
-Jun 19, 2020 2:26:45 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
-Jun 19, 2020 2:26:45 PM com.hazelcast.internal.diagnostics.Diagnostics
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
-Jun 19, 2020 2:26:45 PM com.hazelcast.core.LifecycleService
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] [172.20.0.3]:5701 is STARTING
-Jun 19, 2020 2:26:45 PM com.hazelcast.instance.Node
-WARNING: [172.20.0.3]:5701 [dev] [3.9.2] No join method is enabled! Starting standalone.
-Jun 19, 2020 2:26:45 PM com.hazelcast.system
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Cluster version set to 3.9
-Jun 19, 2020 2:26:45 PM com.hazelcast.core.LifecycleService
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] [172.20.0.3]:5701 is STARTED
-Jun 19, 2020 2:26:45 PM com.hazelcast.internal.partition.impl.PartitionStateManager
-INFO: [172.20.0.3]:5701 [dev] [3.9.2] Initializing cluster partition table arrangement...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </pre>
 </span>
 </div>
@@ -413,7 +443,7 @@ INFO: [172.20.0.3]:5701 [dev] [3.9.2] Initializing cluster partition table arran
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jun 19, 2020 2:59:29 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jun 19, 2020 10:41:37 PM</p>
 </div>
 </div>
 </body>

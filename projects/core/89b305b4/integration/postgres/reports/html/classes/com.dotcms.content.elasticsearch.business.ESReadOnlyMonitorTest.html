@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">27m1.00s</div>
+<div class="counter">27m0.99s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -76,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">shouldNotSendLargeMessageWhenClusterIsNotReadOnly[0: cluster.blocks.read_only]</td>
-<td>0.015s</td>
+<td>0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldNotSendLargeMessageWhenClusterIsNotReadOnly[1: cluster.blocks.read_only_allow_delete]</td>
-<td>0.028s</td>
+<td>0.021s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldNotSendLargeMessage[0: index.blocks.read_only]</td>
-<td>0.061s</td>
+<td>0.084s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldNotSendLargeMessage[1: index.blocks.read_only_allow_delete]</td>
-<td>0.061s</td>
+<td>0.080s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -106,22 +109,22 @@
 </tr>
 <tr>
 <td class="success">shouldSendLargeMessageJustOnce[0: index.blocks.read_only]</td>
-<td>3m0.09s</td>
+<td>3m0.08s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldSendLargeMessageJustOnce[1: index.blocks.read_only_allow_delete]</td>
-<td>3m0.09s</td>
+<td>3m0.08s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldSendLargeMessageTwice</td>
-<td>6m0.15s</td>
+<td>6m0.14s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldSendLargeMessage[0: index.blocks.read_only]</td>
-<td>3m0.12s</td>
+<td>3m0.10s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -131,10 +134,40 @@
 </tr>
 <tr>
 <td class="success">shouldputReadonlyFalseAgain</td>
-<td>3m0.21s</td>
+<td>3m0.20s</td>
 <td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Jul 01, 2020 4:55:10 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=402.0M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=246.2M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=81.45%, heap.memory.used/max=70.18%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=16.26%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:55:30 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=401.8M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=244.9M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=81.54%, heap.memory.used/max=70.27%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=11.57%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:55:50 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=400.8M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=243.8M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=81.63%, heap.memory.used/max=70.34%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=8.20%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:56:10 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=400.8M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=237.3M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.12%, heap.memory.used/max=70.76%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.04%, load.systemAverage=5.76%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:56:30 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=400.9M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=236.1M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.21%, heap.memory.used/max=70.84%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=48.29%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:56:50 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=401.2M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=235.0M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.29%, heap.memory.used/max=70.91%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=34.52%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:57:10 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=401.7M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=229.9M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.68%, heap.memory.used/max=71.24%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=39.40%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:57:30 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=404.4M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=228.7M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.77%, heap.memory.used/max=71.32%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=28.13%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:57:50 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=400.7M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=226.9M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=82.90%, heap.memory.used/max=71.43%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=20.07%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:58:10 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=400.6M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=222.0M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=83.27%, heap.memory.used/max=71.75%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=14.31%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:58:30 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=401.0M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=220.8M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=83.36%, heap.memory.used/max=71.83%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=10.16%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+Jul 01, 2020 4:58:50 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.18.0.3]:5701 [dev] [3.9.2] processors=2, physical.memory.total=6.8G, physical.memory.free=401.4M, swap.space.total=4.0G, swap.space.free=4.0G, heap.memory.used=1.1G, heap.memory.free=219.7M, heap.memory.total=1.3G, heap.memory.max=1.5G, heap.memory.used/total=83.44%, heap.memory.used/max=71.90%, minor.gc.count=274, minor.gc.time=10793ms, major.gc.count=6, major.gc.time=4519ms, load.process=0.01%, load.system=0.03%, load.systemAverage=7.18%, thread.count=589, thread.peakCount=610, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=2, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -144,7 +177,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 1, 2020 6:19:38 AM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 1, 2020 5:20:27 PM</p>
 </div>
 </div>
 </body>

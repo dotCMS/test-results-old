@@ -1,3 +1,4 @@
-UNIT_TEST_RESULT=FAIL
-UNIT_COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/b3f70751/unit
-UNIT_BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/current/unit
+TEST_TYPE=Unit
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/b3f70751/unit
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/current/unit

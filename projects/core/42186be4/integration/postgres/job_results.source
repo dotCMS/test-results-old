@@ -1,0 +1,4 @@
+TEST_TYPE=Integration
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/42186be4/integration/postgres
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18796-create-github-slack-action/projects/core/current/integration/postgres

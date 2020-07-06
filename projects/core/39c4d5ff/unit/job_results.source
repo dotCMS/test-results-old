@@ -1,0 +1,4 @@
+TEST_TYPE=Unit
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18762-apps-enterprise/projects/core/39c4d5ff/unit
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18762-apps-enterprise/projects/core/current/unit

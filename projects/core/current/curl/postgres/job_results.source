@@ -1,0 +1,4 @@
+TEST_TYPE=Curl
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.4/projects/core/246212a5/curl/postgres
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.4/projects/core/current/curl/postgres

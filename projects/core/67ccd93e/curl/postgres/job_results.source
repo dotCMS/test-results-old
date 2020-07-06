@@ -1,0 +1,4 @@
+TEST_TYPE=Curl
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18689-move-index-dynamic-mappings-from-JSON-to-code/projects/core/67ccd93e/curl/postgres
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18689-move-index-dynamic-mappings-from-JSON-to-code/projects/core/current/curl/postgres

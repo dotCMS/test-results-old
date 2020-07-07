@@ -1,0 +1,4 @@
+TEST_TYPE=Integration
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18279-saml-core/projects/core/b9ff6419/integration/postgres
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18279-saml-core/projects/core/current/integration/postgres

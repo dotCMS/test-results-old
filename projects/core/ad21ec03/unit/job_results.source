@@ -1,0 +1,4 @@
+TEST_TYPE=Unit
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/removing-travis-build-status/projects/core/ad21ec03/unit
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/removing-travis-build-status/projects/core/current/unit

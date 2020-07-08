@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.393s</div>
+<div class="counter">0.671s</div>
 <p>duration</p>
 </div>
 </td>
@@ -142,7 +142,7 @@
 <a name="testFullReindexKeepsDefaultSiteSearchIndex"></a>
 <h3 class="failures">testFullReindexKeepsDefaultSiteSearchIndex</h3>
 <span class="code">
-<pre>ElasticsearchException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540001]]]; nested: ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540001]]];
+<pre>ElasticsearchException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178291844]]]; nested: ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178291844]]];
 	at com.dotcms.content.elasticsearch.business.ESIndexAPI.delete(ESIndexAPI.java:376)
 	at com.dotcms.content.elasticsearch.business.ESSiteSearchAPITest.testFullReindexKeepsDefaultSiteSearchIndex(ESSiteSearchAPITest.java:90)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -202,7 +202,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: [cluster_45bc7fd8f1.sitesearch1594169540001] ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540001]]]
+Caused by: [cluster_37d1072df5.sitesearch1594178291844] ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178291844]]]
 	at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRestResponse.java:177)
 	at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLevelClient.java:1727)
 	at org.elasticsearch.client.RestHighLevelClient.parseResponseException(RestHighLevelClient.java:1704)
@@ -219,7 +219,7 @@ Caused by: [cluster_45bc7fd8f1.sitesearch1594169540001] ElasticsearchStatusExcep
 <a name="testReindexAbortKeepsDefaultSiteSearchIndex"></a>
 <h3 class="failures">testReindexAbortKeepsDefaultSiteSearchIndex</h3>
 <span class="code">
-<pre>ElasticsearchException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540319]]]; nested: ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540319]]];
+<pre>ElasticsearchException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178292152]]]; nested: ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178292152]]];
 	at com.dotcms.content.elasticsearch.business.ESIndexAPI.delete(ESIndexAPI.java:376)
 	at com.dotcms.content.elasticsearch.business.ESSiteSearchAPITest.testReindexAbortKeepsDefaultSiteSearchIndex(ESSiteSearchAPITest.java:124)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -279,7 +279,7 @@ Caused by: [cluster_45bc7fd8f1.sitesearch1594169540001] ElasticsearchStatusExcep
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: [cluster_45bc7fd8f1.sitesearch1594169540319] ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_45bc7fd8f1.sitesearch1594169540319]]]
+Caused by: [cluster_37d1072df5.sitesearch1594178292152] ElasticsearchStatusException[Elasticsearch exception [type=index_not_found_exception, reason=no such index [cluster_37d1072df5.sitesearch1594178292152]]]
 	at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRestResponse.java:177)
 	at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLevelClient.java:1727)
 	at org.elasticsearch.client.RestHighLevelClient.parseResponseException(RestHighLevelClient.java:1704)
@@ -305,17 +305,17 @@ Caused by: [cluster_45bc7fd8f1.sitesearch1594169540319] ElasticsearchStatusExcep
 </thead>
 <tr>
 <td class="failures">testCreateSiteSearchIndexAndMakeItDefault</td>
-<td>0.082s</td>
+<td>0.084s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testFullReindexKeepsDefaultSiteSearchIndex</td>
-<td>0.280s</td>
+<td>0.309s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testReindexAbortKeepsDefaultSiteSearchIndex</td>
-<td>0.031s</td>
+<td>0.278s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -328,7 +328,7 @@ Caused by: [cluster_45bc7fd8f1.sitesearch1594169540319] ElasticsearchStatusExcep
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 1:43:14 AM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 4:08:00 AM</p>
 </div>
 </div>
 </body>

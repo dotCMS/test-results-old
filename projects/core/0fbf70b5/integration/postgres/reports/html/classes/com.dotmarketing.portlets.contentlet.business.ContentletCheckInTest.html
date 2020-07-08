@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">12.948s</div>
+<div class="counter">13.329s</div>
 <p>duration</p>
 </div>
 </td>
@@ -73,7 +73,7 @@
 <a name="publish_content_anonymously"></a>
 <h3 class="failures">publish_content_anonymously</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: User:anonymous does not have permissions on Contentlet Contentlet[name: e7b10f77-8509-49be-9380-de8532cac16a, type: testingType, lang: 1 ,identifier: e7b10f77-8509-49be-9380-de8532cac16a, inode: 0b6a9819-0aac-4d5e-9117-cd442ff3f47c]
+<pre>com.dotmarketing.exception.DotRuntimeException: User:anonymous does not have permissions on Contentlet Contentlet[name: 583313df-2412-4bfe-b0ab-e24b106b7524, type: testingType, lang: 1 ,identifier: 583313df-2412-4bfe-b0ab-e24b106b7524, inode: 689c398c-9713-4c83-b9b7-7ea7814fa91d]
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -156,7 +156,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: User:anonymous does not have permissions on Contentlet Contentlet[name: e7b10f77-8509-49be-9380-de8532cac16a, type: testingType, lang: 1 ,identifier: e7b10f77-8509-49be-9380-de8532cac16a, inode: 0b6a9819-0aac-4d5e-9117-cd442ff3f47c]
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: User:anonymous does not have permissions on Contentlet Contentlet[name: 583313df-2412-4bfe-b0ab-e24b106b7524, type: testingType, lang: 1 ,identifier: 583313df-2412-4bfe-b0ab-e24b106b7524, inode: 689c398c-9713-4c83-b9b7-7ea7814fa91d]
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -168,7 +168,7 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Us
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 81 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: User:anonymous does not have permissions on Contentlet Contentlet[name: e7b10f77-8509-49be-9380-de8532cac16a, type: testingType, lang: 1 ,identifier: e7b10f77-8509-49be-9380-de8532cac16a, inode: 0b6a9819-0aac-4d5e-9117-cd442ff3f47c]
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: User:anonymous does not have permissions on Contentlet Contentlet[name: 583313df-2412-4bfe-b0ab-e24b106b7524, type: testingType, lang: 1 ,identifier: 583313df-2412-4bfe-b0ab-e24b106b7524, inode: 689c398c-9713-4c83-b9b7-7ea7814fa91d]
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentActionlet.executeAction_aroundBody0(SaveContentActionlet.java:92)
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentActionlet$AjcClosure1.run(SaveContentActionlet.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -179,7 +179,7 @@ Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureExcept
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentActionlet.executeAction(SaveContentActionlet.java:55)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 90 more
-Caused by: com.dotmarketing.exception.DotSecurityException: User:anonymous does not have permissions on Contentlet Contentlet[name: e7b10f77-8509-49be-9380-de8532cac16a, type: testingType, lang: 1 ,identifier: e7b10f77-8509-49be-9380-de8532cac16a, inode: 0b6a9819-0aac-4d5e-9117-cd442ff3f47c]
+Caused by: com.dotmarketing.exception.DotSecurityException: User:anonymous does not have permissions on Contentlet Contentlet[name: 583313df-2412-4bfe-b0ab-e24b106b7524, type: testingType, lang: 1 ,identifier: 583313df-2412-4bfe-b0ab-e24b106b7524, inode: 689c398c-9713-4c83-b9b7-7ea7814fa91d]
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.find_aroundBody4(ESContentletAPIImpl.java:343)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure5.run(ESContentletAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -416,7 +416,7 @@ BADCAR: ParentContentType.invalidRelationship,
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [fea92fa2-ded3-42d9-ac6d-140fd27e72df] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [4006d518-08b8-4663-90d0-af660f3ce22e] has invalid/missing relationships
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4170)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
@@ -439,7 +439,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [fea92fa2-
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 54 more
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [fea92fa2-ded3-42d9-ac6d-140fd27e72df] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [4006d518-08b8-4663-90d0-af660f3ce22e] has invalid/missing relationships
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -452,7 +452,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [fea92fa2-
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4367)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4151)
 	... 73 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [fea92fa2-ded3-42d9-ac6d-140fd27e72df] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [4006d518-08b8-4663-90d0-af660f3ce22e] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -464,11 +464,11 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Co
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 83 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [fea92fa2-ded3-42d9-ac6d-140fd27e72df] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [4006d518-08b8-4663-90d0-af660f3ce22e] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentAsDraftActionlet.executeAction(SaveContentAsDraftActionlet.java:133)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 92 more
-Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [fea92fa2-ded3-42d9-ac6d-140fd27e72df] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [4006d518-08b8-4663-90d0-af660f3ce22e] has invalid/missing relationships
 List of non valid relationships
 BADRELCON: ParentContentType.invalidRelationship, 
 
@@ -985,57 +985,57 @@ BADCAR: ParentContentType.invalidRelationship,
 </thead>
 <tr>
 <td class="success">checkinInvalidFileContent</td>
-<td>0.391s</td>
+<td>0.493s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">checkin_content_anonymously</td>
-<td>0.378s</td>
+<td>0.493s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">publish_content_anonymously</td>
-<td>3.807s</td>
+<td>3.852s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">test_checkinContentlet_RelationshipManyToManyCardinality_Success</td>
-<td>2.137s</td>
+<td>2.447s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">test_checkinContentlet_RelationshipOneToManyCardinality_Success</td>
-<td>1.170s</td>
+<td>1.225s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">test_checkinContentlet_RelationshipOneToManyCardinality_throwsDotContentletValidationException</td>
-<td>1.135s</td>
+<td>1.121s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">test_checkinContentlet_RelationshipOneToOneCardinality_Success</td>
-<td>0.825s</td>
+<td>0.757s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">test_checkinContentlet_RelationshipToItself_throwsDotContentletValidationException</td>
-<td>0.413s</td>
+<td>0.403s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test_checkinContentlet_relationshipOneToOneCardinality_fails_whenRelatedChildBelongsToAnotherRelationship</td>
-<td>1.094s</td>
+<td>1.060s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test_checkinContentlet_relationshipOneToOneCardinality_fails_whenRelatedParentBelongsToAnotherRelationship</td>
-<td>1.128s</td>
+<td>1.080s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">test_checkinContentlet_relationshipOneToOneCardinality_fails_whenRelatingMoreThanOneContentlet</td>
-<td>0.470s</td>
+<td>0.398s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -1048,7 +1048,7 @@ BADCAR: ParentContentType.invalidRelationship,
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 1:43:14 AM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 4:08:00 AM</p>
 </div>
 </div>
 </body>

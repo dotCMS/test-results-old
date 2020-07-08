@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">34.847s</div>
+<div class="counter">33.621s</div>
 <p>duration</p>
 </div>
 </td>
@@ -70,10 +70,10 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@21e8b8c9]"></a>
-<h3 class="failures">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@21e8b8c9]</h3>
+<a name="testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@49d95f34]"></a>
+<h3 class="failures">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@49d95f34]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [bb8659ba-2583-44e6-a6b5-c31a6557e9cd] has invalid/missing relationships
+<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [9692b236-e776-4852-a82b-e34381d3a413] has invalid/missing relationships
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4170)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
@@ -152,7 +152,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [bb8659ba-2583-44e6-a6b5-c31a6557e9cd] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [9692b236-e776-4852-a82b-e34381d3a413] has invalid/missing relationships
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -165,7 +165,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [bb8659ba-
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4367)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4151)
 	... 76 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [bb8659ba-2583-44e6-a6b5-c31a6557e9cd] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [9692b236-e776-4852-a82b-e34381d3a413] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -177,13 +177,13 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Co
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 86 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [bb8659ba-2583-44e6-a6b5-c31a6557e9cd] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [9692b236-e776-4852-a82b-e34381d3a413] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentAsDraftActionlet.executeAction(SaveContentAsDraftActionlet.java:133)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 95 more
-Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [bb8659ba-2583-44e6-a6b5-c31a6557e9cd] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [9692b236-e776-4852-a82b-e34381d3a413] has invalid/missing relationships
 List of non valid relationships
-BADRELCON: testContentType1594170534529.myChild, 
+BADRELCON: testContentType1594179239962.myChild, 
 
 
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateRelationships(ESContentletAPIImpl.java:6638)
@@ -224,10 +224,10 @@ BADRELCON: testContentType1594170534529.myChild,
 </span>
 </div>
 <div class="test">
-<a name="testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2724cded]"></a>
-<h3 class="failures">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2724cded]</h3>
+<a name="testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5861671e]"></a>
+<h3 class="failures">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5861671e]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [280f6e89-19f1-4707-9861-03699244d7a7] has invalid/missing relationships
+<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [81c83c1a-7f82-48ce-82df-b73c8a970610] has invalid/missing relationships
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4170)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
@@ -306,7 +306,7 @@ BADRELCON: testContentType1594170534529.myChild,
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [280f6e89-19f1-4707-9861-03699244d7a7] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [81c83c1a-7f82-48ce-82df-b73c8a970610] has invalid/missing relationships
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -319,7 +319,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [280f6e89-
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4367)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4151)
 	... 76 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [280f6e89-19f1-4707-9861-03699244d7a7] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [81c83c1a-7f82-48ce-82df-b73c8a970610] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -331,13 +331,13 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Co
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 86 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [280f6e89-19f1-4707-9861-03699244d7a7] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [81c83c1a-7f82-48ce-82df-b73c8a970610] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentAsDraftActionlet.executeAction(SaveContentAsDraftActionlet.java:133)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 95 more
-Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [280f6e89-19f1-4707-9861-03699244d7a7] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [81c83c1a-7f82-48ce-82df-b73c8a970610] has invalid/missing relationships
 List of non valid relationships
-BADRELCON: testContentType1594170537359.myChild, 
+BADRELCON: testContentType1594179242487.myChild, 
 
 
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateRelationships(ESContentletAPIImpl.java:6638)
@@ -378,10 +378,10 @@ BADRELCON: testContentType1594170537359.myChild,
 </span>
 </div>
 <div class="test">
-<a name="testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@644c3602]"></a>
-<h3 class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@644c3602]</h3>
+<a name="testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@78b0b4e7]"></a>
+<h3 class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@78b0b4e7]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [99e1b9fe-52d5-4a57-926b-26c691154e39] has invalid/missing relationships
+<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [355036ba-4deb-4692-824d-b830a778a355] has invalid/missing relationships
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4170)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
@@ -460,7 +460,7 @@ BADRELCON: testContentType1594170537359.myChild,
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [99e1b9fe-52d5-4a57-926b-26c691154e39] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [355036ba-4deb-4692-824d-b830a778a355] has invalid/missing relationships
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -473,7 +473,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [99e1b9fe-
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4367)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4151)
 	... 76 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [99e1b9fe-52d5-4a57-926b-26c691154e39] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [355036ba-4deb-4692-824d-b830a778a355] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -485,13 +485,13 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Co
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 86 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [99e1b9fe-52d5-4a57-926b-26c691154e39] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [355036ba-4deb-4692-824d-b830a778a355] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentAsDraftActionlet.executeAction(SaveContentAsDraftActionlet.java:133)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 95 more
-Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [99e1b9fe-52d5-4a57-926b-26c691154e39] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [355036ba-4deb-4692-824d-b830a778a355] has invalid/missing relationships
 List of non valid relationships
-BADRELCON: testContentType1594170552159.myChild, 
+BADRELCON: testContentType1594179257432.myChild, 
 
 
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateRelationships(ESContentletAPIImpl.java:6638)
@@ -532,10 +532,10 @@ BADRELCON: testContentType1594170552159.myChild,
 </span>
 </div>
 <div class="test">
-<a name="testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4d253868]"></a>
-<h3 class="failures">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4d253868]</h3>
+<a name="testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@54e179c1]"></a>
+<h3 class="failures">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@54e179c1]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [3420d155-cbde-4c13-bc87-b3bac650ca5e] has invalid/missing relationships
+<pre>com.dotmarketing.exception.DotRuntimeException: Contentlet [afdef781-9ed4-4529-ad71-7d172edf4d5e] has invalid/missing relationships
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4170)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
@@ -614,7 +614,7 @@ BADRELCON: testContentType1594170552159.myChild,
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [3420d155-cbde-4c13-bc87-b3bac650ca5e] has invalid/missing relationships
+Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [afdef781-9ed4-4529-ad71-7d172edf4d5e] has invalid/missing relationships
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3028)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
@@ -627,7 +627,7 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Contentlet [3420d155-
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4367)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4151)
 	... 76 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [3420d155-cbde-4c13-bc87-b3bac650ca5e] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Contentlet [afdef781-9ed4-4529-ad71-7d172edf4d5e] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2351)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
 	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -639,13 +639,13 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Co
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3028)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 86 more
-Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [3420d155-cbde-4c13-bc87-b3bac650ca5e] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.workflows.model.WorkflowActionFailureException: Contentlet [afdef781-9ed4-4529-ad71-7d172edf4d5e] has invalid/missing relationships
 	at com.dotmarketing.portlets.workflows.actionlet.SaveContentAsDraftActionlet.executeAction(SaveContentAsDraftActionlet.java:133)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2322)
 	... 95 more
-Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [3420d155-cbde-4c13-bc87-b3bac650ca5e] has invalid/missing relationships
+Caused by: com.dotmarketing.portlets.contentlet.business.DotContentletValidationException: Contentlet [afdef781-9ed4-4529-ad71-7d172edf4d5e] has invalid/missing relationships
 List of non valid relationships
-BADRELCON: testContentType1594170554398.myChild, 
+BADRELCON: testContentType1594179259649.myChild, 
 
 
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateRelationships(ESContentletAPIImpl.java:6638)
@@ -698,77 +698,77 @@ BADRELCON: testContentType1594170554398.myChild,
 </thead>
 <tr>
 <td class="success">testGetContentTypeAlwaysReturnsTheLatestCachedVersion</td>
-<td>0.295s</td>
+<td>0.229s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationship</td>
-<td>1.190s</td>
+<td>0.496s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationshipWhenLimitedUserShouldReturnEmptyList</td>
-<td>2.099s</td>
+<td>1.930s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenInvalidVarFieldShouldThrowAnException</td>
-<td>0.158s</td>
+<td>0.195s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenNoRelatedContentShouldReturnEmptyList</td>
-<td>0.274s</td>
+<td>0.249s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@32061bb2]</td>
-<td>3.226s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@1e569402]</td>
+<td>3.187s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@21e8b8c9]</td>
-<td>2.828s</td>
+<td class="failures">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@49d95f34]</td>
+<td>2.525s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2724cded]</td>
-<td>2.663s</td>
+<td class="failures">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5861671e]</td>
+<td>2.870s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@3154aa1]</td>
-<td>2.717s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@245d71f]</td>
+<td>2.822s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@1cc0afa]</td>
-<td>0.122s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2819b5d1]</td>
+<td>0.157s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@6586c4fa]</td>
-<td>7.199s</td>
+<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2bba6f19]</td>
+<td>7.166s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@644c3602]</td>
-<td>2.238s</td>
+<td class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@78b0b4e7]</td>
+<td>2.216s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4d253868]</td>
-<td>2.041s</td>
+<td class="failures">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@54e179c1]</td>
+<td>2.240s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2c5f70ec]</td>
-<td>7.330s</td>
+<td class="success">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@31b3f9b1]</td>
+<td>7.122s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@7f2dd089]</td>
-<td>0.467s</td>
+<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@49098a39]</td>
+<td>0.217s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -781,7 +781,7 @@ BADRELCON: testContentType1594170554398.myChild,
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 1:43:14 AM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 8, 2020 4:08:00 AM</p>
 </div>
 </div>
 </body>

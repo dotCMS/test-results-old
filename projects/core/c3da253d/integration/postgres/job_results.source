@@ -1,0 +1,4 @@
+TEST_TYPE=Integration
+TEST_TYPE_RESULT=SUCCESS
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/master/projects/core/c3da253d/integration/postgres/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/master/projects/core/current/integration/postgres/reports/html/index.html

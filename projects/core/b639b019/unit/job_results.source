@@ -1,0 +1,4 @@
+TEST_TYPE=Unit
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/ga-on-master/projects/core/b639b019/unit/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/ga-on-master/projects/core/current/unit/reports/html/index.html

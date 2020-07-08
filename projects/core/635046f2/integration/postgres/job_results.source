@@ -1,0 +1,4 @@
+TEST_TYPE=Integration
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18524-error-running-updagrade-task/projects/core/635046f2/integration/postgres/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18524-error-running-updagrade-task/projects/core/current/integration/postgres/reports/html/index.html

@@ -1,0 +1,4 @@
+TEST_TYPE=Curl
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18524-error-running-updagrade-task/projects/core/635046f2/curl/postgres/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/18524-error-running-updagrade-task/projects/core/current/curl/postgres/reports/html/index.html

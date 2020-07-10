@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.697s</div>
+<div class="counter">3.775s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,6 +66,9 @@
 <li>
 <a href="#tab1">Tests</a>
 </li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
@@ -74,6 +77,36 @@
 <h3 class="failures">test_visitor_serializer</h3>
 <span class="code">
 <pre>java.lang.ExceptionInInitializerError
+	at com.dotmarketing.business.FactoryIndex.create(FactoryLocator.java:308)
+	at com.dotmarketing.business.FactoryLocator.createService(FactoryLocator.java:251)
+	at com.dotmarketing.business.FactoryLocator.createService(FactoryLocator.java:1)
+	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
+	at com.dotmarketing.business.FactoryLocator.getInstance(FactoryLocator.java:241)
+	at com.dotmarketing.business.FactoryLocator.getPermissionFactory(FactoryLocator.java:88)
+	at com.dotmarketing.business.PermissionBitAPIImpl.&lt;init&gt;(PermissionBitAPIImpl.java:67)
+	at com.dotmarketing.business.APIIndex.create(APILocator.java:1133)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1024)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1)
+	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
+	at com.dotmarketing.business.APILocator.getInstance(APILocator.java:997)
+	at com.dotmarketing.business.APILocator.getPermissionAPI(APILocator.java:248)
+	at com.dotmarketing.business.UserAPIImpl.&lt;init&gt;(UserAPIImpl.java:66)
+	at com.dotmarketing.business.APIIndex.create(APILocator.java:1135)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1024)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1)
+	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
+	at com.dotmarketing.business.APILocator.getInstance(APILocator.java:997)
+	at com.dotmarketing.business.APILocator.getUserAPI(APILocator.java:266)
+	at com.dotmarketing.business.RoleAPIImpl.&lt;init&gt;(RoleAPIImpl.java:38)
+	at com.dotmarketing.business.APIIndex.create(APILocator.java:1134)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1024)
+	at com.dotmarketing.business.APILocator.createService(APILocator.java:1)
+	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
+	at com.dotmarketing.business.APILocator.getInstance(APILocator.java:997)
+	at com.dotmarketing.business.APILocator.getRoleAPI(APILocator.java:257)
+	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor.&lt;init&gt;(ESReadOnlyMonitor.java:54)
+	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor.&lt;init&gt;(ESReadOnlyMonitor.java:51)
+	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor$Singleton.&lt;clinit&gt;(ESReadOnlyMonitor.java:61)
 	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor.getInstance(ESReadOnlyMonitor.java:73)
 	at com.dotmarketing.common.reindex.ReindexQueueAPIImpl.&lt;init&gt;(ReindexQueueAPIImpl.java:39)
 	at com.dotmarketing.business.APIIndex.create(APILocator.java:1150)
@@ -157,49 +190,12 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Error initializing Cache providers
-	at com.dotmarketing.business.ChainableCacheAdministratorImpl.initProviders(ChainableCacheAdministratorImpl.java:86)
-	at com.dotmarketing.business.CommitListenerCacheWrapper.initProviders(CommitListenerCacheWrapper.java:29)
-	at com.dotmarketing.business.CacheLocator.init(CacheLocator.java:127)
-	at com.dotmarketing.business.CacheLocator.getInstance(CacheLocator.java:326)
-	at com.dotmarketing.business.CacheLocator.getCmsRoleCache(CacheLocator.java:144)
-	at com.dotmarketing.business.RoleFactoryImpl.&lt;init&gt;(RoleFactoryImpl.java:34)
-	at com.dotmarketing.business.FactoryIndex.create(FactoryLocator.java:321)
-	at com.dotmarketing.business.FactoryLocator.createService(FactoryLocator.java:251)
-	at com.dotmarketing.business.FactoryLocator.createService(FactoryLocator.java:1)
-	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
-	at com.dotmarketing.business.FactoryLocator.getInstance(FactoryLocator.java:241)
-	at com.dotmarketing.business.FactoryLocator.getRoleFactory(FactoryLocator.java:138)
-	at com.dotmarketing.business.RoleAPIImpl.&lt;init&gt;(RoleAPIImpl.java:38)
-	at com.dotmarketing.business.APIIndex.create(APILocator.java:1134)
-	at com.dotmarketing.business.APILocator.createService(APILocator.java:1024)
-	at com.dotmarketing.business.APILocator.createService(APILocator.java:1)
-	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
-	at com.dotmarketing.business.APILocator.getInstance(APILocator.java:997)
-	at com.dotmarketing.business.APILocator.getRoleAPI(APILocator.java:257)
-	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor.&lt;init&gt;(ESReadOnlyMonitor.java:54)
-	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor.&lt;init&gt;(ESReadOnlyMonitor.java:51)
-	at com.dotcms.content.elasticsearch.business.ESReadOnlyMonitor$Singleton.&lt;clinit&gt;(ESReadOnlyMonitor.java:61)
-	... 83 more
-Caused by: com.dotmarketing.business.DotStateException: Config.CONTEXT not initialized with a servlet context, dying
-	at com.liferay.util.FileUtil.getRealPath(FileUtil.java:382)
-	at com.dotmarketing.util.ConfigUtils.getDynamicContentPath(ConfigUtils.java:40)
-	at com.dotmarketing.business.cache.provider.h22.H22Cache.&lt;init&gt;(H22Cache.java:84)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at com.dotcms.enterprise.cache.provider.CacheProviderAPIImpl.a(SourceFile:146)
-	at com.dotcms.enterprise.cache.provider.CacheProviderAPIImpl.&lt;init&gt;(SourceFile:76)
-	at com.dotmarketing.business.APIIndex.create(APILocator.java:1165)
-	at com.dotmarketing.business.APILocator.createService(APILocator.java:1024)
-	at com.dotmarketing.business.APILocator.createService(APILocator.java:1)
-	at com.dotmarketing.business.Locator.getServiceInstance(Locator.java:41)
-	at com.dotmarketing.business.APILocator.getInstance(APILocator.java:997)
-	at com.dotmarketing.business.APILocator.getCacheProviderAPI(APILocator.java:554)
-	at com.dotmarketing.business.ChainableCacheAdministratorImpl.initProviders(ChainableCacheAdministratorImpl.java:83)
-	... 104 more
+Caused by: com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.dotmarketing.db.DbConnectionFactory.getConnection(DbConnectionFactory.java:222)
+	at com.dotmarketing.db.DbConnectionFactory.getDBType(DbConnectionFactory.java:450)
+	at com.dotmarketing.db.DbConnectionFactory.isMsSql(DbConnectionFactory.java:570)
+	at com.dotmarketing.business.PermissionBitFactoryImpl.&lt;clinit&gt;(PermissionBitFactoryImpl.java:268)
+	... 113 more
 </pre>
 </span>
 </div>
@@ -216,10 +212,19 @@ Caused by: com.dotmarketing.business.DotStateException: Config.CONTEXT not initi
 </thead>
 <tr>
 <td class="failures">test_visitor_serializer</td>
-<td>0.697s</td>
+<td>3.775s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -229,7 +234,7 @@ Caused by: com.dotmarketing.business.DotStateException: Config.CONTEXT not initi
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 10, 2020 4:42:18 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 10, 2020 5:55:40 PM</p>
 </div>
 </div>
 </body>

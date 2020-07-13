@@ -437,7 +437,7 @@ table.dataTable td, table.dataTable tr {
                 <a class="nav-link text-white" id="pills-requests-tab" data-toggle="pill" href="#pills-requests" role="tab" aria-controls="pills-requests" aria-selected="false">Total Requests <span class="badge badge-light">5</span></a>
             </li>
             <li class="nav-item bg-danger" data-toggle="tooltip" title="Click to view the Failed Tests">
-                <a class="nav-link text-white" id="pills-failed-tab" data-toggle="pill" href="#pills-failed" role="tab" aria-controls="pills-failed" aria-selected="false">Failed Tests <span class="badge badge-light">1</span></a>
+                <a class="nav-link text-white" id="pills-failed-tab" data-toggle="pill" href="#pills-failed" role="tab" aria-controls="pills-failed" aria-selected="false">Failed Tests <span class="badge badge-light">2</span></a>
             </li>
             <li class="nav-item bg-warning" data-toggle="tooltip" title="Click to view the Skipped Tests">
                 <a class="nav-link text-white" id="pills-skipped-tab" data-toggle="pill" href="#pills-skipped" role="tab" aria-controls="pills-skipped" aria-selected="false">Skipped Tests <span class="badge badge-light">0</span></a>
@@ -448,7 +448,7 @@ table.dataTable td, table.dataTable tr {
 <div class="row">
   <div class="col-md-9 col-lg-12 main">
    <h1 class="display-2 text-center">Newman Run Dashboard</h1>
-   <h5 class="text-center">Monday, 13 July 2020 14:46:10</h5>
+   <h5 class="text-center">Monday, 13 July 2020 23:53:43</h5>
    <div class="row">
     <div class="col-lg-3 col-md-6">
      <div class="card text-white card-success">
@@ -479,7 +479,7 @@ table.dataTable td, table.dataTable tr {
         <i class="fa fa-plus-circle fa-5x"></i>
        </div>
        <h6 class="text-uppercase">Total Failed Tests</h6>
-       <h1 class="display-1">1</h1>
+       <h1 class="display-1">2</h1>
       </div>
      </div>
     </div>
@@ -526,9 +526,9 @@ table.dataTable td, table.dataTable tr {
             <div class="card border-info">
                 <div class="card-body">
                 <h5 class="card-title text-uppercase text-white text-center bg-info">Timings and Data</h5>
-                <span><i class="fas fa-stopwatch"></i></span><strong> Total run duration:</strong> 12.5s<br>
-                <span><i class="fas fa-database"></i></span><strong> Total data received:</strong> 1.09KB<br>
-                <span><i class="fas fa-stopwatch"></i></span><strong> Average response time:</strong> 2.5s<br>
+                <span><i class="fas fa-stopwatch"></i></span><strong> Total run duration:</strong> 6.6s<br>
+                <span><i class="fas fa-database"></i></span><strong> Total data received:</strong> 330B<br>
+                <span><i class="fas fa-stopwatch"></i></span><strong> Average response time:</strong> 1276ms<br>
                 </div>
             </div>
         </div>
@@ -563,7 +563,7 @@ table.dataTable td, table.dataTable tr {
                     <tr class="table-danger">
                         <td>Assertions</td>
                         <td class="text-center">4</td>
-                        <td class="text-center">1</td>
+                        <td class="text-center">2</td>
                     </tr>
                     <tr class="">
                         <td>Skipped Tests</td>
@@ -591,17 +591,38 @@ table.dataTable td, table.dataTable tr {
                     <br>
 
                     <div class="alert alert-danger text-uppercase text-center">
-                        <h4>Showing 1 Failure</h4>
+                        <h4>Showing 2 Failures</h4>
                     </div>
                     <div class="col-sm-12 mb-3">
                     <div class="card-deck">
                         <div class="card border-danger">
                             <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73" aria-expanded="false" aria-controls="collapse" id="fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73" class="collapsed text-white z-block">
+                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" aria-expanded="false" aria-controls="collapse" id="fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" class="collapsed text-white z-block">
+                                    Iteration 1 - AssertionError - FolderResource - createFolders Success <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
+                                </a>
+                            </div>
+                            <div id="fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" class="collapse" aria-labelledby="fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632">
+                            <div class="card-body">
+                                <h5 ><strong>Failed Test:</strong> Status code should be 200</h5>
+                            <hr>
+                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
+                            <div>
+                                <pre><code >expected response to have status code 200 but got 400</code></pre>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 mb-3">
+                    <div class="card-deck">
+                        <div class="card border-danger">
+                            <div class="card-header bg-danger">
+                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" aria-expanded="false" aria-controls="collapse" id="fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" class="collapsed text-white z-block">
                                     Iteration 1 - AssertionError - FolderResource - createFolders Forbidden User without Permissions <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
                                 </a>
                             </div>
-                            <div id="fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73" class="collapse" aria-labelledby="fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73">
+                            <div id="fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" class="collapse" aria-labelledby="fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9">
                             <div class="card-body">
                                 <h5 ><strong>Failed Test:</strong> Status code should be 403</h5>
                             <hr>
@@ -643,16 +664,16 @@ table.dataTable td, table.dataTable tr {
     </div>
     <h6 class="text-uppercase text-muted" id="iterationSelected" style="padding-top: 10px;"></h6>
 	<div class="tab-content" id="execution-data">
-            <div id="folder-693e18b8-732a-45d2-8686-a7dac38a686e" class="card-deck iteration-0">
+            <div id="folder-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
-                    <div class="card-header  bg-success iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-693e18b8-732a-45d2-8686-a7dac38a686e" aria-expanded="false" aria-controls="collapse" id="requests-693e18b8-732a-45d2-8686-a7dac38a686e" class="collapsed text-white z-block">
+                    <div class="card-header  bg-danger iteration-0">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" aria-expanded="false" aria-controls="collapse" id="requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" class="collapsed text-white z-block">
                     Iteration: 1 - createFolders Success <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-693e18b8-732a-45d2-8686-a7dac38a686e" class="collapse" aria-labelledby="requests-693e18b8-732a-45d2-8686-a7dac38a686e">
+                    <div id="collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632" class="collapse" aria-labelledby="requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -667,15 +688,15 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card border-info" style="width: 50rem;">
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
-                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 200 - OK</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 12.3s</span><br>
-                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 835B</span><br>
+                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 400 - Bad Request</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 6.3s</span><br>
+                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 66B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
                                     <div>
                                         <div class="progress" style="height: 40px;">
-                                            <div class="progress-bar  bg-success" style="width: 100%" role="progressbar">
-                                            <h5 style="padding-top:5px;"><strong>100 %</strong></h5>
+                                            <div class="progress-bar  bg-danger" style="width: 100%" role="progressbar">
+                                            <h5 style="padding-top:5px;"><strong>0 %</strong></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -716,7 +737,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td>6cba139c-6de7-4c24-82dd-21db0de3e2ad</td>
+                                                        <td>6a8341d3-5da5-4cfb-a73f-047307fc6b25</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -772,11 +793,15 @@ table.dataTable td, table.dataTable tr {
                                             <tbody>
                                                 <tr>
                                                     <td class="text-nowrap">Set-Cookie</td>
-                                                    <td>JSESSIONID&#x3D;A42AF388C9949EC1134F704DEB7D69F2; Path&#x3D;/; HttpOnly</td>
+                                                    <td>JSESSIONID&#x3D;11D5D1D89A7FD112FA8622091C391B7D; Path&#x3D;/; HttpOnly</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Set-Cookie</td>
-                                                    <td>access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkOTczMTFkMy1hYTI2LTQzNjEtOTdmNC1kMGViMGM4ZjJmMGIiLCJ4bW9kIjoxNTk0NjUxNTYxMzcxLCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2NTE1NjEsImlzcyI6IjhkYTc1ZDUyOTIiLCJleHAiOjE1OTQ3Mzc5NjF9.YmnT-rzx_Mz0zBy3W0wDbfrEErtFljEqLN6gU--Xtik; Path&#x3D;/</td>
+                                                    <td>access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWE0Zjk4YS0xOTE4LTQ3YzYtYTM0My1lNzBmY2QzZWIwZjQiLCJ4bW9kIjoxNTk0Njg0NDIwMjc1LCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2ODQ0MjAsImlzcyI6IjI4OTYyNmI5NDgiLCJleHAiOjE1OTQ3NzA4MjB9.an9-mYjFrwx5JJtKBBWeoySPBQzV_XXtkzrisVkKOLk; Path&#x3D;/</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-nowrap">error-key</td>
+                                                    <td>bad-request-exception</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Access-Control-Allow-Origin</td>
@@ -799,28 +824,20 @@ table.dataTable td, table.dataTable tr {
                                                     <td>*</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="text-nowrap">Cache-Control</td>
-                                                    <td>no-cache, no-store, must-revalidate</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-nowrap">Pragma</td>
-                                                    <td>no-cache</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-nowrap">Expires</td>
-                                                    <td>Mon, 26 Jul 1997 05:00:00 GMT</td>
-                                                </tr>
-                                                <tr>
                                                     <td class="text-nowrap">Content-Type</td>
                                                     <td>application/json</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Content-Length</td>
-                                                    <td>835</td>
+                                                    <td>66</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td>Mon, 13 Jul 2020 14:46:10 GMT</td>
+                                                    <td>Mon, 13 Jul 2020 23:53:43 GMT</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-nowrap">Connection</td>
+                                                    <td>close</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -837,10 +854,10 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-2677d2f1-38d0-466b-bbc8-ee775cb37b67" class="prettyPrint">{&quot;entity&quot;:[{&quot;defaultFileType&quot;:&quot;33888b6f-7a8e-4069-b1b6-5c1aa9d0a48d&quot;,&quot;filesMasks&quot;:&quot;&quot;,&quot;hostId&quot;:&quot;48190c8c-42c4-46af-8d1a-0cd5db894797&quot;,&quot;iDate&quot;:1594651564390,&quot;identifier&quot;:&quot;d159d3da-7f66-4432-b7e2-74317bbca902&quot;,&quot;inode&quot;:&quot;cd883d6c-c57a-47ff-bd3b-3cff1df88c20&quot;,&quot;modDate&quot;:1594651564400,&quot;name&quot;:&quot;folder1&quot;,&quot;path&quot;:&quot;/folder1/&quot;,&quot;showOnMenu&quot;:false,&quot;sortOrder&quot;:0,&quot;title&quot;:&quot;folder1&quot;,&quot;type&quot;:&quot;folder&quot;},{&quot;defaultFileType&quot;:&quot;33888b6f-7a8e-4069-b1b6-5c1aa9d0a48d&quot;,&quot;filesMasks&quot;:&quot;&quot;,&quot;hostId&quot;:&quot;48190c8c-42c4-46af-8d1a-0cd5db894797&quot;,&quot;iDate&quot;:1594651567415,&quot;identifier&quot;:&quot;1e89f592-425d-4b45-9f82-19beba737d0d&quot;,&quot;inode&quot;:&quot;b52d2d16-cafc-4aa3-9a87-edd1440024de&quot;,&quot;modDate&quot;:1594651567421,&quot;name&quot;:&quot;subfolder1&quot;,&quot;path&quot;:&quot;/folder2/subfolder1/&quot;,&quot;showOnMenu&quot;:false,&quot;sortOrder&quot;:0,&quot;title&quot;:&quot;subfolder1&quot;,&quot;type&quot;:&quot;folder&quot;}],&quot;errors&quot;:[],&quot;i18nMessagesMap&quot;:{},&quot;messages&quot;:[],&quot;permissions&quot;:[]}</code></pre>
+                                                <pre><code id="copyText-d13f60b6-5de7-46bf-95a8-34b0c43a8103" class="prettyPrint">{&quot;message&quot;:&quot; Couldn&#x27;t find any host with name &#x60;demo.dotcms.com&#x60; &quot;}</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-2677d2f1-38d0-466b-bbc8-ee775cb37b67">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-d13f60b6-5de7-46bf-95a8-34b0c43a8103">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -852,27 +869,27 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                 <h5 class="card-title text-uppercase text-white text-center bg-info">Test Information</h5>
                                     <div class="table-responsive text-nowrap">
-                                        <table id="myTable-2677d2f1-38d0-466b-bbc8-ee775cb37b67" class="table table-hover">
+                                        <table id="myTable-d13f60b6-5de7-46bf-95a8-34b0c43a8103" class="table table-hover">
                                         <thead><tr class="text-center"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th></tr></thead>
                                             <tbody>
                                                 <tr >
                                                     <td >Status code should be 200</td>
-                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
+                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                             </tbody>
                                             <tfoot>
                                                 <tr class="bg-light">
                                                     <td><strong>Total</strong></td>
-                                                    <td class="text-center">1</td>
                                                     <td class="text-center">0</td>
+                                                    <td class="text-center">1</td>
                                                     <td class="text-center">0</td>
                                                 </tr>
                                             </tfoot>
                                         </table>
                                     </div>
-                                    <div class="row d-none">
+                                    <div class="row ">
                                     <div class="col-sm-12 mb-3">
                                         <div class="card-deck">
                                         <div class="card border-danger" style="width: 50rem;">
@@ -882,6 +899,10 @@ table.dataTable td, table.dataTable tr {
                                                     <table class="table table-hover">
                                                     <thead><tr class="text-nowrap"><th>Test Name</th><th>Assertion Error</th></tr></thead>
                                                         <tbody>
+                                                            <tr>
+                                                                <td class="w-45 text-nowrap ">Status code should be 200</td>
+                                                                <td class="w-55"><pre><code >expected response to have status code 200 but got 400</code></pre></td>
+                                                            </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -899,16 +920,16 @@ table.dataTable td, table.dataTable tr {
                 </div>
             </div>
             </div>
-            <div id="folder-f8035f89-e4f3-44fc-a594-26d5c4d63bb4" class="card-deck iteration-0">
+            <div id="folder-26a25f34-112a-42f6-b087-a0b682df82ac" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
                     <div class="card-header  bg-success iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4" aria-expanded="false" aria-controls="collapse" id="requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4" class="collapsed text-white z-block">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-26a25f34-112a-42f6-b087-a0b682df82ac" aria-expanded="false" aria-controls="collapse" id="requests-26a25f34-112a-42f6-b087-a0b682df82ac" class="collapsed text-white z-block">
                     Iteration: 1 - createFolders BadRequest with Restricted Name <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4" class="collapse" aria-labelledby="requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4">
+                    <div id="collapse-26a25f34-112a-42f6-b087-a0b682df82ac" class="collapse" aria-labelledby="requests-26a25f34-112a-42f6-b087-a0b682df82ac">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -924,8 +945,8 @@ table.dataTable td, table.dataTable tr {
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
                                     <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 400 - Bad Request</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 14ms</span><br>
-                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 79B</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 16ms</span><br>
+                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 66B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
                                     <div>
@@ -972,7 +993,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td>44bd7e4c-54fb-4727-b0ac-ebe945b5932e</td>
+                                                        <td>920bddef-486a-4c72-8993-24378023da71</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -992,7 +1013,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Cookie</td>
-                                                        <td>JSESSIONID&#x3D;A42AF388C9949EC1134F704DEB7D69F2; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkOTczMTFkMy1hYTI2LTQzNjEtOTdmNC1kMGViMGM4ZjJmMGIiLCJ4bW9kIjoxNTk0NjUxNTYxMzcxLCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2NTE1NjEsImlzcyI6IjhkYTc1ZDUyOTIiLCJleHAiOjE1OTQ3Mzc5NjF9.YmnT-rzx_Mz0zBy3W0wDbfrEErtFljEqLN6gU--Xtik</td>
+                                                        <td>JSESSIONID&#x3D;11D5D1D89A7FD112FA8622091C391B7D; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWE0Zjk4YS0xOTE4LTQ3YzYtYTM0My1lNzBmY2QzZWIwZjQiLCJ4bW9kIjoxNTk0Njg0NDIwMjc1LCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2ODQ0MjAsImlzcyI6IjI4OTYyNmI5NDgiLCJleHAiOjE1OTQ3NzA4MjB9.an9-mYjFrwx5JJtKBBWeoySPBQzV_XXtkzrisVkKOLk</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1060,11 +1081,11 @@ table.dataTable td, table.dataTable tr {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Content-Length</td>
-                                                    <td>79</td>
+                                                    <td>66</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td>Mon, 13 Jul 2020 14:46:10 GMT</td>
+                                                    <td>Mon, 13 Jul 2020 23:53:43 GMT</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Connection</td>
@@ -1085,10 +1106,10 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-e0a4eed9-2a15-4e5f-9b03-b27bd666a547" class="prettyPrint">{&quot;message&quot;:&quot;Folder can&#x27;t be saved. You entered a reserved folder name: dotcms&quot;}</code></pre>
+                                                <pre><code id="copyText-2a928be7-6b50-4245-8f89-3d5fa9602e2a" class="prettyPrint">{&quot;message&quot;:&quot; Couldn&#x27;t find any host with name &#x60;demo.dotcms.com&#x60; &quot;}</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-e0a4eed9-2a15-4e5f-9b03-b27bd666a547">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-2a928be7-6b50-4245-8f89-3d5fa9602e2a">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -1100,7 +1121,7 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                 <h5 class="card-title text-uppercase text-white text-center bg-info">Test Information</h5>
                                     <div class="table-responsive text-nowrap">
-                                        <table id="myTable-e0a4eed9-2a15-4e5f-9b03-b27bd666a547" class="table table-hover">
+                                        <table id="myTable-2a928be7-6b50-4245-8f89-3d5fa9602e2a" class="table table-hover">
                                         <thead><tr class="text-center"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th></tr></thead>
                                             <tbody>
                                                 <tr >
@@ -1147,16 +1168,16 @@ table.dataTable td, table.dataTable tr {
                 </div>
             </div>
             </div>
-            <div id="folder-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8" class="card-deck iteration-0">
+            <div id="folder-2a72abfe-e874-4575-838d-a06e9ca885bc" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
                     <div class="card-header  bg-success iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8" aria-expanded="false" aria-controls="collapse" id="requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8" class="collapsed text-white z-block">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-2a72abfe-e874-4575-838d-a06e9ca885bc" aria-expanded="false" aria-controls="collapse" id="requests-2a72abfe-e874-4575-838d-a06e9ca885bc" class="collapsed text-white z-block">
                     Iteration: 1 - createFolders BadRequest with Invalid SiteName <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8" class="collapse" aria-labelledby="requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8">
+                    <div id="collapse-2a72abfe-e874-4575-838d-a06e9ca885bc" class="collapse" aria-labelledby="requests-2a72abfe-e874-4575-838d-a06e9ca885bc">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -1172,7 +1193,7 @@ table.dataTable td, table.dataTable tr {
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
                                     <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 400 - Bad Request</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 34ms</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 36ms</span><br>
                                     <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 63B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
@@ -1220,7 +1241,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td>efddb680-6b99-4e2f-a5a1-e277d3784b05</td>
+                                                        <td>b4fe2a9f-94e8-4f91-a8b2-2a50a4d33afd</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -1240,7 +1261,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Cookie</td>
-                                                        <td>JSESSIONID&#x3D;A42AF388C9949EC1134F704DEB7D69F2; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkOTczMTFkMy1hYTI2LTQzNjEtOTdmNC1kMGViMGM4ZjJmMGIiLCJ4bW9kIjoxNTk0NjUxNTYxMzcxLCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2NTE1NjEsImlzcyI6IjhkYTc1ZDUyOTIiLCJleHAiOjE1OTQ3Mzc5NjF9.YmnT-rzx_Mz0zBy3W0wDbfrEErtFljEqLN6gU--Xtik</td>
+                                                        <td>JSESSIONID&#x3D;11D5D1D89A7FD112FA8622091C391B7D; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWE0Zjk4YS0xOTE4LTQ3YzYtYTM0My1lNzBmY2QzZWIwZjQiLCJ4bW9kIjoxNTk0Njg0NDIwMjc1LCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2ODQ0MjAsImlzcyI6IjI4OTYyNmI5NDgiLCJleHAiOjE1OTQ3NzA4MjB9.an9-mYjFrwx5JJtKBBWeoySPBQzV_XXtkzrisVkKOLk</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1311,7 +1332,7 @@ table.dataTable td, table.dataTable tr {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td>Mon, 13 Jul 2020 14:46:10 GMT</td>
+                                                    <td>Mon, 13 Jul 2020 23:53:43 GMT</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Connection</td>
@@ -1332,10 +1353,10 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-519d00cb-47e9-4ea6-8c6b-50b3889644ad" class="prettyPrint">{&quot;message&quot;:&quot; Couldn&#x27;t find any host with name &#x60;siteNotExist&#x60; &quot;}</code></pre>
+                                                <pre><code id="copyText-0a0de1db-380a-4298-84b6-633ac4dbdda6" class="prettyPrint">{&quot;message&quot;:&quot; Couldn&#x27;t find any host with name &#x60;siteNotExist&#x60; &quot;}</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-519d00cb-47e9-4ea6-8c6b-50b3889644ad">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-0a0de1db-380a-4298-84b6-633ac4dbdda6">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -1347,7 +1368,7 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                 <h5 class="card-title text-uppercase text-white text-center bg-info">Test Information</h5>
                                     <div class="table-responsive text-nowrap">
-                                        <table id="myTable-519d00cb-47e9-4ea6-8c6b-50b3889644ad" class="table table-hover">
+                                        <table id="myTable-0a0de1db-380a-4298-84b6-633ac4dbdda6" class="table table-hover">
                                         <thead><tr class="text-center"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th></tr></thead>
                                             <tbody>
                                                 <tr >
@@ -1394,16 +1415,16 @@ table.dataTable td, table.dataTable tr {
                 </div>
             </div>
             </div>
-            <div id="folder-e35422cd-90ce-4398-a874-f9e7b2978a4b" class="card-deck iteration-0">
+            <div id="folder-70aa62a0-f07e-4202-b6ba-828313400091" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
                     <div class="card-header  bg-success iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b" aria-expanded="false" aria-controls="collapse" id="requests-e35422cd-90ce-4398-a874-f9e7b2978a4b" class="collapsed text-white z-block">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-70aa62a0-f07e-4202-b6ba-828313400091" aria-expanded="false" aria-controls="collapse" id="requests-70aa62a0-f07e-4202-b6ba-828313400091" class="collapsed text-white z-block">
                     Iteration: 1 - Logout User <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b" class="collapse" aria-labelledby="requests-e35422cd-90ce-4398-a874-f9e7b2978a4b">
+                    <div id="collapse-70aa62a0-f07e-4202-b6ba-828313400091" class="collapse" aria-labelledby="requests-70aa62a0-f07e-4202-b6ba-828313400091">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -1419,7 +1440,7 @@ table.dataTable td, table.dataTable tr {
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
                                     <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 200 - OK</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 24ms</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 31ms</span><br>
                                     <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 96B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
@@ -1459,7 +1480,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td>1e20a312-c632-48f6-98e8-6a2f13acfd14</td>
+                                                        <td>f73e65c1-82a0-43a2-98c9-0e6cdd010f7a</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -1475,7 +1496,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Cookie</td>
-                                                        <td>JSESSIONID&#x3D;A42AF388C9949EC1134F704DEB7D69F2; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkOTczMTFkMy1hYTI2LTQzNjEtOTdmNC1kMGViMGM4ZjJmMGIiLCJ4bW9kIjoxNTk0NjUxNTYxMzcxLCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2NTE1NjEsImlzcyI6IjhkYTc1ZDUyOTIiLCJleHAiOjE1OTQ3Mzc5NjF9.YmnT-rzx_Mz0zBy3W0wDbfrEErtFljEqLN6gU--Xtik</td>
+                                                        <td>JSESSIONID&#x3D;11D5D1D89A7FD112FA8622091C391B7D; access_token&#x3D;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWE0Zjk4YS0xOTE4LTQ3YzYtYTM0My1lNzBmY2QzZWIwZjQiLCJ4bW9kIjoxNTk0Njg0NDIwMjc1LCJzdWIiOiJkb3RjbXMub3JnLjEiLCJpYXQiOjE1OTQ2ODQ0MjAsImlzcyI6IjI4OTYyNmI5NDgiLCJleHAiOjE1OTQ3NzA4MjB9.an9-mYjFrwx5JJtKBBWeoySPBQzV_XXtkzrisVkKOLk</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -1545,7 +1566,7 @@ table.dataTable td, table.dataTable tr {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td>Mon, 13 Jul 2020 14:46:10 GMT</td>
+                                                    <td>Mon, 13 Jul 2020 23:53:43 GMT</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -1562,10 +1583,10 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-6b279b24-b1a5-4875-878c-9b0c376dc8ab" class="prettyPrint">{&quot;entity&quot;:&quot;Logout successfully&quot;,&quot;errors&quot;:[],&quot;i18nMessagesMap&quot;:{},&quot;messages&quot;:[],&quot;permissions&quot;:[]}</code></pre>
+                                                <pre><code id="copyText-1080a1c6-36a4-4843-9eef-c795039a4910" class="prettyPrint">{&quot;entity&quot;:&quot;Logout successfully&quot;,&quot;errors&quot;:[],&quot;i18nMessagesMap&quot;:{},&quot;messages&quot;:[],&quot;permissions&quot;:[]}</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-6b279b24-b1a5-4875-878c-9b0c376dc8ab">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-1080a1c6-36a4-4843-9eef-c795039a4910">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -1586,16 +1607,16 @@ table.dataTable td, table.dataTable tr {
                 </div>
             </div>
             </div>
-            <div id="folder-38a88268-273c-4d55-aa0a-dc9c9dedfd73" class="card-deck iteration-0">
+            <div id="folder-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
                     <div class="card-header  bg-danger iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73" aria-expanded="false" aria-controls="collapse" id="requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73" class="collapsed text-white z-block">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" aria-expanded="false" aria-controls="collapse" id="requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" class="collapsed text-white z-block">
                     Iteration: 1 - createFolders Forbidden User without Permissions <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73" class="collapse" aria-labelledby="requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73">
+                    <div id="collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9" class="collapse" aria-labelledby="requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -1611,7 +1632,7 @@ table.dataTable td, table.dataTable tr {
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
                                     <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 401 - Unauthorized</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 11ms</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 12ms</span><br>
                                     <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 39B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
@@ -1659,7 +1680,7 @@ table.dataTable td, table.dataTable tr {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td>d2211ae7-6b0a-4679-b128-93d67ba9ca21</td>
+                                                        <td>63809235-fc5e-42f9-b4cc-a8cf718153b6</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -1714,7 +1735,7 @@ table.dataTable td, table.dataTable tr {
                                             <tbody>
                                                 <tr>
                                                     <td class="text-nowrap">Set-Cookie</td>
-                                                    <td>JSESSIONID&#x3D;A612FDDC3C862B4829C9C22BFCC5F555; Path&#x3D;/; HttpOnly</td>
+                                                    <td>JSESSIONID&#x3D;720E116B1D2E68BEB26D14D48F3403B3; Path&#x3D;/; HttpOnly</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Access-Control-Allow-Origin</td>
@@ -1746,7 +1767,7 @@ table.dataTable td, table.dataTable tr {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td>Mon, 13 Jul 2020 14:46:10 GMT</td>
+                                                    <td>Mon, 13 Jul 2020 23:53:43 GMT</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -1763,10 +1784,10 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-ab46272b-7436-4a91-8612-63ef2ffed4af" class="prettyPrint">Authentication credentials are required</code></pre>
+                                                <pre><code id="copyText-21277372-ac73-45c3-a669-6d705bd5966c" class="prettyPrint">Authentication credentials are required</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-ab46272b-7436-4a91-8612-63ef2ffed4af">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-21277372-ac73-45c3-a669-6d705bd5966c">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -1778,7 +1799,7 @@ table.dataTable td, table.dataTable tr {
                                 <div class="card-body">
                                 <h5 class="card-title text-uppercase text-white text-center bg-info">Test Information</h5>
                                     <div class="table-responsive text-nowrap">
-                                        <table id="myTable-ab46272b-7436-4a91-8612-63ef2ffed4af" class="table table-hover">
+                                        <table id="myTable-21277372-ac73-45c3-a669-6d705bd5966c" class="table table-hover">
                                         <thead><tr class="text-center"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th></tr></thead>
                                             <tbody>
                                                 <tr >
@@ -1851,7 +1872,7 @@ table.dataTable td, table.dataTable tr {
 
 <script>
 $(document).ready( function () {
-    $('#myTable-2677d2f1-38d0-466b-bbc8-ee775cb37b67').DataTable({
+    $('#myTable-d13f60b6-5de7-46bf-95a8-34b0c43a8103').DataTable({
         "retrieve": true,
         "paging": false,
         "info": false,
@@ -1861,7 +1882,7 @@ $(document).ready( function () {
     });
 });
 $(document).ready( function () {
-    $('#myTable-e0a4eed9-2a15-4e5f-9b03-b27bd666a547').DataTable({
+    $('#myTable-2a928be7-6b50-4245-8f89-3d5fa9602e2a').DataTable({
         "retrieve": true,
         "paging": false,
         "info": false,
@@ -1871,7 +1892,7 @@ $(document).ready( function () {
     });
 });
 $(document).ready( function () {
-    $('#myTable-519d00cb-47e9-4ea6-8c6b-50b3889644ad').DataTable({
+    $('#myTable-0a0de1db-380a-4298-84b6-633ac4dbdda6').DataTable({
         "retrieve": true,
         "paging": false,
         "info": false,
@@ -1881,7 +1902,7 @@ $(document).ready( function () {
     });
 });
 $(document).ready( function () {
-    $('#myTable-6b279b24-b1a5-4875-878c-9b0c376dc8ab').DataTable({
+    $('#myTable-1080a1c6-36a4-4843-9eef-c795039a4910').DataTable({
         "retrieve": true,
         "paging": false,
         "info": false,
@@ -1891,7 +1912,7 @@ $(document).ready( function () {
     });
 });
 $(document).ready( function () {
-    $('#myTable-ab46272b-7436-4a91-8612-63ef2ffed4af').DataTable({
+    $('#myTable-21277372-ac73-45c3-a669-6d705bd5966c').DataTable({
         "retrieve": true,
         "paging": false,
         "info": false,
@@ -1941,49 +1962,49 @@ $('#openAllRequests').on('click', function(e) {
 let clickCount = $(this).data("clickCount") || 1
 switch (clickCount){
     case 1:
-            $('#requests-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#requests-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#requests-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#requests-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
-            $('#collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
+            $('#requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#requests-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#requests-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#requests-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#requests-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#requests-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#requests-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
+            $('#collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
         $('#openAllRequests').html("Collapse Requests");
         break;
     case 2:
-            $('#requests-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#requests-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#requests-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#requests-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#requests-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#requests-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#requests-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
-            $('#collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
+            $('#requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#requests-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#requests-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#requests-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#requests-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#requests-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#requests-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#requests-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#requests-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
+            $('#collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
         $('#openAllRequests').html("Expand Requests");
         break;
 }
@@ -1999,49 +2020,49 @@ $('#openAllSkipped').on('click', function(e) {
 let clickCount = $(this).data("clickCount") || 1
 switch (clickCount){
     case 1:
-            $('#skipped-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#skipped-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#skipped-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#skipped-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#skipped-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#skipped-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#skipped-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#skipped-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#skipped-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#skipped-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#skipped-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#skipped-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#skipped-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#skipped-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#skipped-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#skipped-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#skipped-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#skipped-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#skipped-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
-            $('#skipped-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
+            $('#skipped-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#skipped-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#skipped-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#skipped-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#skipped-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#skipped-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#skipped-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#skipped-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#skipped-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#skipped-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#skipped-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#skipped-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#skipped-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#skipped-collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#skipped-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#skipped-collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#skipped-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#skipped-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#skipped-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
+            $('#skipped-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
         $('#openAllSkipped').html("Collapse All Skipped Tests");
         break;
     case 2:
-            $('#skipped-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#skipped-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#skipped-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#skipped-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#skipped-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#skipped-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#skipped-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#skipped-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#skipped-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#skipped-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#skipped-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#skipped-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#skipped-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#skipped-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#skipped-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#skipped-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#skipped-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#skipped-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#skipped-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
-            $('#skipped-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
+            $('#skipped-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#skipped-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#skipped-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#skipped-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#skipped-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#skipped-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#skipped-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#skipped-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#skipped-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#skipped-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#skipped-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#skipped-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#skipped-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#skipped-collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#skipped-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#skipped-collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#skipped-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#skipped-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#skipped-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
+            $('#skipped-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
         $('#openAllSkipped').html("Expand All Skipped Tests");
         break;
 }
@@ -2057,49 +2078,49 @@ $('#openAllFailed').on('click', function(e) {
 let clickCount = $(this).data("clickCount") || 1
 switch (clickCount){
     case 1:
-            $('#fails-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#fails-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('collapsed')
-            $('#fails-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#fails-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('show')
-            $('#fails-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#fails-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('collapsed')
-            $('#fails-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#fails-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('show')
-            $('#fails-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#fails-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('collapsed')
-            $('#fails-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#fails-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('show')
-            $('#fails-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#fails-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('collapsed')
-            $('#fails-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#fails-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('show')
-            $('#fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('collapsed')
-            $('#fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
-            $('#fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('show')
+            $('#fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('collapsed')
+            $('#fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('show')
+            $('#fails-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#fails-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('collapsed')
+            $('#fails-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#fails-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('show')
+            $('#fails-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#fails-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('collapsed')
+            $('#fails-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#fails-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('show')
+            $('#fails-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#fails-collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('collapsed')
+            $('#fails-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#fails-collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('show')
+            $('#fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('collapsed')
+            $('#fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
+            $('#fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('show')
         $('#openAllFailed').html("Collapse All Failed Tests");
         break;
     case 2:
-            $('#fails-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#fails-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').addClass('collapsed')
-            $('#fails-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#fails-collapse-693e18b8-732a-45d2-8686-a7dac38a686e').removeClass('show')
-            $('#fails-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#fails-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').addClass('collapsed')
-            $('#fails-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#fails-collapse-f8035f89-e4f3-44fc-a594-26d5c4d63bb4').removeClass('show')
-            $('#fails-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#fails-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').addClass('collapsed')
-            $('#fails-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#fails-collapse-c0c40fc2-7a98-4a8e-9e88-b9feaad4ddc8').removeClass('show')
-            $('#fails-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#fails-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').addClass('collapsed')
-            $('#fails-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#fails-collapse-e35422cd-90ce-4398-a874-f9e7b2978a4b').removeClass('show')
-            $('#fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').addClass('collapsed')
-            $('#fails-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
-            $('#fails-collapse-38a88268-273c-4d55-aa0a-dc9c9dedfd73').removeClass('show')
+            $('#fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').addClass('collapsed')
+            $('#fails-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#fails-collapse-e7f7e2d5-c5b5-4b15-8764-95d121ba5632').removeClass('show')
+            $('#fails-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#fails-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').addClass('collapsed')
+            $('#fails-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#fails-collapse-26a25f34-112a-42f6-b087-a0b682df82ac').removeClass('show')
+            $('#fails-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#fails-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').addClass('collapsed')
+            $('#fails-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#fails-collapse-2a72abfe-e874-4575-838d-a06e9ca885bc').removeClass('show')
+            $('#fails-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#fails-collapse-70aa62a0-f07e-4202-b6ba-828313400091').addClass('collapsed')
+            $('#fails-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#fails-collapse-70aa62a0-f07e-4202-b6ba-828313400091').removeClass('show')
+            $('#fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').addClass('collapsed')
+            $('#fails-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
+            $('#fails-collapse-e0b1ea40-7dcd-4399-befa-8e89d84cd5f9').removeClass('show')
         $('#openAllFailed').html("Expand All Failed Tests");
         break;
 }
@@ -2297,6 +2318,7 @@ window.onload = function () {
   document.getElementById('iteration-0').click();
   document.getElementById('iterationSelected').innerHTML = `Iteration ${document.getElementById('iteration-0').innerHTML} selected`
 
+    $("#iteration-0").removeClass('itPassed').addClass('itFailed')
     $("#iteration-0").removeClass('itPassed').addClass('itFailed')
 }
 </script>

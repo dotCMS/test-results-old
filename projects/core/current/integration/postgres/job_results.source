@@ -1,4 +1,4 @@
 TEST_TYPE=Integration
-TEST_TYPE_RESULT=FAIL
+TEST_TYPE_RESULT=SUCCESS
 COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18641-remove-content-export-limit/projects/core/ac96f722/integration/postgres/reports/html/index.html
 BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18641-remove-content-export-limit/projects/core/current/integration/postgres/reports/html/index.html

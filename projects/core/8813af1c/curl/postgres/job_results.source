@@ -1,0 +1,4 @@
+TEST_TYPE=Curl
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/fix-broken-reindex-on-auth/projects/core/8813af1c/curl/postgres/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/fix-broken-reindex-on-auth/projects/core/current/curl/postgres/reports/html/index.html

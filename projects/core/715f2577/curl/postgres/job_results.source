@@ -1,0 +1,4 @@
+TEST_TYPE=Curl
+TEST_TYPE_RESULT=FAIL
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18826-h22-async-puts/projects/core/715f2577/curl/postgres/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18826-h22-async-puts/projects/core/current/curl/postgres/reports/html/index.html

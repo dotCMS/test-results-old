@@ -1,5 +1,5 @@
 TEST_TYPE=Curl
 DATABASE_TYPE=mysql
 TEST_TYPE_RESULT=FAIL
-COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/master/projects/core/66d1b6fb/curl/mysql/reports/html/index.html
-BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/master/projects/core/current/curl/mysql/reports/html/index.html
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.4.1/projects/core/6064c9a9/curl/mysql/reports/html/index.html
+BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.4.1/projects/core/current/curl/mysql/reports/html/index.html

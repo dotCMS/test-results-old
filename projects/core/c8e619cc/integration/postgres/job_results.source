@@ -1,5 +1,5 @@
 TEST_TYPE=Integration
 DATABASE_TYPE=postgres
-TEST_TYPE_RESULT=FAIL
+TEST_TYPE_RESULT=SUCCESS
 COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18826-h22-async-commit/projects/core/c8e619cc/integration/postgres/reports/html/index.html
 BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18826-h22-async-commit/projects/core/current/integration/postgres/reports/html/index.html

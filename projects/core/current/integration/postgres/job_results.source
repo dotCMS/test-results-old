@@ -1,5 +1,5 @@
 TEST_TYPE=Integration
 DATABASE_TYPE=postgres
-TEST_TYPE_RESULT=SUCCESS
+TEST_TYPE_RESULT=FAIL
 COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18571-Relationships-cache-on-receiver-out-of-sync-after-deleting-a-relation-and-pushing-content/projects/core/7d9582da/integration/postgres/reports/html/index.html
 BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/issue-18571-Relationships-cache-on-receiver-out-of-sync-after-deleting-a-relation-and-pushing-content/projects/core/current/integration/postgres/reports/html/index.html

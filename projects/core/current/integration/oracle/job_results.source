@@ -1,5 +1,5 @@
 TEST_TYPE=Integration
 DATABASE_TYPE=oracle
 TEST_TYPE_RESULT=FAIL
-COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.5/projects/core/0c9a0f15/integration/oracle/reports/html/index.html
+COMMIT_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.5/projects/core/ebb4354a/integration/oracle/reports/html/index.html
 BRANCH_TEST_RESULT_URL=https://raw.githack.com/dotCMS/test-results/release-5.3.5/projects/core/current/integration/oracle/reports/html/index.html

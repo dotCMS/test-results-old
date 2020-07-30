@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">47.051s</div>
+<div class="counter">50.127s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">93%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,146 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@58fb9ddb]"></a>
-<h3 class="failures">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@58fb9ddb]</h3>
-<span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: An error occurred when executing the Lucene Query [ {&quot;size&quot;:10000,&quot;timeout&quot;:&quot;15000ms&quot;,&quot;query&quot;:{&quot;query_string&quot;:{&quot;query&quot;:&quot;+type:content +(testcontenttype1595972711569.mychild-parent:5ceea098-be81-423e-85c6-2d416055f403 testcontenttype1595972711569.mychild-child:5ceea098-be81-423e-85c6-2d416055f403)&quot;,&quot;fields&quot;:[],&quot;type&quot;:&quot;best_fields&quot;,&quot;default_operator&quot;:&quot;or&quot;,&quot;max_determinized_states&quot;:10000,&quot;enable_position_increments&quot;:true,&quot;fuzziness&quot;:&quot;AUTO&quot;,&quot;fuzzy_prefix_length&quot;:0,&quot;fuzzy_max_expansions&quot;:50,&quot;phrase_slop&quot;:0,&quot;escape&quot;:false,&quot;auto_generate_synonyms_phrase_query&quot;:true,&quot;fuzzy_transpositions&quot;:true,&quot;boost&quot;:1.0}},&quot;_source&quot;:{&quot;includes&quot;:[&quot;inode&quot;,&quot;identifier&quot;],&quot;excludes&quot;:[]},&quot;sort&quot;:[{&quot;moddate&quot;:{&quot;order&quot;:&quot;desc&quot;}}]} ] : Timeout connecting to [elasticsearch/172.18.0.2:9200]
-	at com.dotcms.content.elasticsearch.business.ESContentFactoryImpl.cachedIndexSearch(ESContentFactoryImpl.java:1614)
-	at com.dotcms.content.elasticsearch.business.ESContentFactoryImpl.indexSearch(ESContentFactoryImpl.java:1687)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.searchIndex(ESContentletAPIImpl.java:972)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.search(ESContentletAPIImpl.java:830)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.search(ESContentletAPIImpl.java:821)
-	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.search(ContentletAPIInterceptor.java:1757)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.reindexDependenciesForDeletedContent(ContentletIndexAPIImpl.java:994)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.removeContentAndProcessDependencies(ContentletIndexAPIImpl.java:963)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.handleRemoveIndexNotDefer(ContentletIndexAPIImpl.java:894)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.removeContentFromIndex(ContentletIndexAPIImpl.java:879)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.removeContentFromIndex_aroundBody18(ContentletIndexAPIImpl.java:1020)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl$AjcClosure19.run(ContentletIndexAPIImpl.java:1)
-	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
-	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
-	at com.dotcms.aspects.interceptors.CloseDBIfOpenedMethodInterceptor.invoke(CloseDBIfOpenedMethodInterceptor.java:29)
-	at com.dotcms.aspects.aspectj.CloseDBIfOpenedAspect.invoke(CloseDBIfOpenedAspect.java:41)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.removeContentFromIndex(ContentletIndexAPIImpl.java:1011)
-	at com.dotcms.content.elasticsearch.business.ContentletIndexAPIImpl.removeContentFromIndex(ContentletIndexAPIImpl.java:836)
-	at com.dotcms.content.elasticsearch.business.ESContentFactoryImpl.delete(ESContentFactoryImpl.java:644)
-	at com.dotcms.content.elasticsearch.business.ESContentFactoryImpl.delete(ESContentFactoryImpl.java:574)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.destroyContentlets(ESContentletAPIImpl.java:2241)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.internalDestroy(ESContentletAPIImpl.java:2119)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.destroy_aroundBody80(ESContentletAPIImpl.java:2085)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure81.run(ESContentletAPIImpl.java:1)
-	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
-	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
-	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
-	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
-	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
-	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.destroy(ESContentletAPIImpl.java:2058)
-	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.destroy(ContentletAPIInterceptor.java:535)
-	at com.dotcms.contenttype.business.ContentTypeFactoryImpl.deleteContentletsByType(ContentTypeFactoryImpl.java:611)
-	at com.dotcms.contenttype.business.ContentTypeFactoryImpl.dbDelete(ContentTypeFactoryImpl.java:518)
-	at com.dotcms.contenttype.business.ContentTypeFactoryImpl.delete(ContentTypeFactoryImpl.java:128)
-	at com.dotcms.contenttype.business.ContentTypeAPIImpl.delete_aroundBody0(ContentTypeAPIImpl.java:85)
-	at com.dotcms.contenttype.business.ContentTypeAPIImpl$AjcClosure1.run(ContentTypeAPIImpl.java:1)
-	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
-	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
-	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
-	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
-	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
-	at com.dotcms.contenttype.business.ContentTypeAPIImpl.delete(ContentTypeAPIImpl.java:81)
-	at com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest.testSetRelatedForSelfRelationship(ContentletIntegrationTest.java:423)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at com.tngtech.java.junit.dataprovider.DataProviderFrameworkMethod.invokeExplosively(DataProviderFrameworkMethod.java:119)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
-	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
-	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Timeout connecting to [elasticsearch/172.18.0.2:9200]
-	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:788)
-	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:218)
-	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:205)
-	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1454)
-	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1424)
-	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1394)
-	at org.elasticsearch.client.RestHighLevelClient.search(RestHighLevelClient.java:930)
-	at com.dotcms.content.elasticsearch.business.ESContentFactoryImpl.cachedIndexSearch(ESContentFactoryImpl.java:1596)
-	... 100 more
-Caused by: java.net.ConnectException: Timeout connecting to [elasticsearch/172.18.0.2:9200]
-	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
-	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:628)
-	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:894)
-	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:183)
-	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:210)
-	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:155)
-	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
-	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
-	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
-	... 1 more
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -212,77 +76,77 @@ Caused by: java.net.ConnectException: Timeout connecting to [elasticsearch/172.1
 </thead>
 <tr>
 <td class="success">testGetContentTypeAlwaysReturnsTheLatestCachedVersion</td>
-<td>0.172s</td>
+<td>0.239s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationship</td>
-<td>1.157s</td>
+<td>1.335s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationshipWhenLimitedUserShouldReturnEmptyList</td>
-<td>1.935s</td>
+<td>2.746s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenInvalidVarFieldShouldThrowAnException</td>
-<td>0.281s</td>
+<td>0.250s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenNoRelatedContentShouldReturnEmptyList</td>
-<td>0.193s</td>
+<td>0.334s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4fe0edd9]</td>
-<td>3.341s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@6e326189]</td>
+<td>3.405s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@788cbdb2]</td>
-<td>3.100s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5be0d130]</td>
+<td>2.996s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5cfa503]</td>
-<td>3.094s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4fe0edd9]</td>
+<td>4.118s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@58fb9ddb]</td>
-<td>3.073s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@788cbdb2]</td>
+<td>3.078s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@10bd3d38]</td>
-<td>0.181s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5cfa503]</td>
+<td>0.344s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4fe0edd9]</td>
-<td>7.247s</td>
+<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@6e326189]</td>
+<td>7.582s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@788cbdb2]</td>
-<td>7.328s</td>
+<td class="success">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5be0d130]</td>
+<td>8.223s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5cfa503]</td>
-<td>7.182s</td>
+<td class="success">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4fe0edd9]</td>
+<td>8.109s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@58fb9ddb]</td>
-<td>8.361s</td>
-<td class="failures">failed</td>
+<td class="success">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@788cbdb2]</td>
+<td>6.986s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@10bd3d38]</td>
-<td>0.406s</td>
+<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@5cfa503]</td>
+<td>0.382s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -295,7 +159,7 @@ Caused by: java.net.ConnectException: Timeout connecting to [elasticsearch/172.1
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 28, 2020 10:32:38 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 30, 2020 7:45:37 PM</p>
 </div>
 </div>
 </body>

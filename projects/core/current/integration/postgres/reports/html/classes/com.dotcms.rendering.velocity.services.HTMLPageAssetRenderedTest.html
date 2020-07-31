@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m34.17s</div>
+<div class="counter">1m35.59s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">96%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,10 +61,85 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="containerArchived_PageShouldResolve"></a>
+<h3 class="failures">containerArchived_PageShouldResolve</h3>
+<span class="code">
+<pre>java.lang.AssertionError: content1content2
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest.containerArchived_PageShouldResolve(HTMLPageAssetRenderedTest.java:1021)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -75,148 +150,148 @@
 </tr>
 </thead>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackFalse_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>5.180s</td>
+<td class="success">ContentFallbackFalse_PageFallbackFalse_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>5.152s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackFalse_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>5.176s</td>
+<td class="success">ContentFallbackFalse_PageFallbackFalse_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>5.254s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>4.948s</td>
+<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>4.987s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>5.155s</td>
+<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>5.208s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>2.045s</td>
+<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglish_ViewEnglishContent1And2_ViewSpanishContent2And3[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>2.056s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>2.043s</td>
+<td class="success">ContentFallbackFalse_PageFallbackTrue_PageEnglish_ViewEnglishContent1And2_ViewSpanishContent2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>2.054s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackTrue_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent1And2And3[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>5.085s</td>
+<td class="success">ContentFallbackTrue_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent1And2And3[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>5.218s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">ContentFallbackTrue_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent1And2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>5.122s</td>
+<td class="success">ContentFallbackTrue_PageFallbackTrue_PageEnglishAndSpanish_ViewEnglishContent1And2_ViewSpanishContent1And2And3[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>5.139s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">constantField_notUpdatedCache_whenChanged[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>4.413s</td>
+<td class="success">constantField_notUpdatedCache_whenChanged[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>4.325s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">constantField_notUpdatedCache_whenChanged[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>4.038s</td>
+<td class="success">constantField_notUpdatedCache_whenChanged[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>4.081s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">containerArchived_PageShouldResolve</td>
-<td>3.964s</td>
-<td class="success">passed</td>
+<td class="failures">containerArchived_PageShouldResolve</td>
+<td>3.879s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">containerTwiceIntoPage</td>
-<td>4.093s</td>
+<td>4.080s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">containerTwiceIntoPageAndTemplateLayout</td>
-<td>6.219s</td>
+<td>6.159s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">render_spanish_contentlets_on_english_page[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>1.850s</td>
+<td class="success">render_spanish_contentlets_on_english_page[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>1.922s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">render_spanish_contentlets_on_english_page[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>2.033s</td>
+<td class="success">render_spanish_contentlets_on_english_page[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>2.082s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldRenderRelativeContainerPath</td>
-<td>4.075s</td>
+<td>4.098s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldRenderUsingOtherSiteContainer</td>
-<td>4.084s</td>
+<td>4.137s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldRenderUsingOtherSiteContainerAndNotAdvanceTemplate</td>
-<td>6.257s</td>
+<td>6.291s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnPageHTMLForLegacyUUIDAndMultiTree[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>1.046s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">shouldReturnPageHTMLForLegacyUUIDAndMultiTree[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
+<td class="success">shouldReturnPageHTMLForLegacyUUIDAndMultiTree[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
 <td>1.020s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnPageHTMLForLegacyUUID[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>0.928s</td>
+<td class="success">shouldReturnPageHTMLForLegacyUUIDAndMultiTree[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>1.028s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnPageHTMLForLegacyUUID[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>1.037s</td>
+<td class="success">shouldReturnPageHTMLForLegacyUUID[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>0.943s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnPageHTMLForPersona[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>2.061s</td>
+<td class="success">shouldReturnPageHTMLForLegacyUUID[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>1.021s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnPageHTMLForPersona[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>2.045s</td>
+<td class="success">shouldReturnPageHTMLForPersona[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>2.054s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnParserContainerUUID[0: com.dotmarketing.portlets.containers.model.Container@78566500[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596224596430,friendlyName=containerHTMLPageRenderedTest1596224596430,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=ee25d669-334c-4b92-982d-66ccf73e224a,identifier=b1831323-b02f-4b01-8ba1-388dc87cce67], com.dotmarketing.portlets.templates.model.Template@13fc68bf]</td>
-<td>2.025s</td>
+<td class="success">shouldReturnPageHTMLForPersona[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>2.069s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">shouldReturnParserContainerUUID[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@24c015f[languageId=1,host=test1596224584692.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596224596602/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container2141521563024692648,modDate=Fri Jul 31 19:43:16 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 19:43:16 GMT 2020,type=containers,owner=system,inode=8b834d31-9b03-45a7-9ccc-1c4472279245,identifier=dbd70c90-3941-48e5-9953-3fd291bcf816], com.dotmarketing.portlets.templates.model.Template@a076aca3]</td>
-<td>2.053s</td>
+<td class="success">shouldReturnParserContainerUUID[0: com.dotmarketing.portlets.containers.model.Container@47f709b2[code=&lt;null&gt;,maxContentlets=5,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=&lt;null&gt;,source=DB,title=containerHTMLPageRenderedTest1596226703462,friendlyName=containerHTMLPageRenderedTest1596226703462,modDate=Fri Jul 31 20:18:23 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:23 GMT 2020,type=containers,owner=system,inode=aa6e6214-7404-46ba-a9b0-536a5cb9cd5d,identifier=c7a41084-8b32-46bc-af35-6dcf5567dbff], com.dotmarketing.portlets.templates.model.Template@7a34c64b]</td>
+<td>2.080s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[0: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@54597fcf]</td>
-<td>2.050s</td>
+<td class="success">shouldReturnParserContainerUUID[1: com.dotmarketing.portlets.containers.model.FileAssetContainer@87f8adc[languageId=1,host=test1596226691526.dotcms.com,path=/application/containers/containerHTMLPageRenderedTest1596226704996/,code=&lt;null&gt;,maxContentlets=25,useDiv=false,sortContentletsBy=&lt;null&gt;,preLoop=&lt;null&gt;,postLoop=&lt;null&gt;,staticify=false,luceneQuery=&lt;null&gt;,notes=Medium Column:Blog,Events,Generic,Location,Media,News,Documents,Products,source=FILE,title=Test Container,friendlyName=container7726420858652512610,modDate=Fri Jul 31 20:18:25 GMT 2020,modUser=system,sortOrder=0,showOnMenu=false,iDate=Fri Jul 31 20:18:25 GMT 2020,type=containers,owner=system,inode=e417a9e6-f340-4c63-bab0-26bfe4bffa4f,identifier=8bb020b7-b16a-486f-911f-d9542ff865a5], com.dotmarketing.portlets.templates.model.Template@50888da4]</td>
+<td>2.037s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[1: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@3e429cf8]</td>
-<td>2.063s</td>
+<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[0: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@1ea6a4ba]</td>
+<td>2.113s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[2: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@79f2d4d9]</td>
-<td>2.064s</td>
+<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[1: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@2d8116b5]</td>
+<td>2.954s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test_WidgetPreExecuteCodeShowRegardlessPageMode[2: com.dotcms.rendering.velocity.services.HTMLPageAssetRenderedTest$WidgetPreExecuteCodeTestCase@756f929f]</td>
+<td>2.144s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -229,7 +304,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 31, 2020 9:07:09 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Jul 31, 2020 9:35:40 PM</p>
 </div>
 </div>
 </body>

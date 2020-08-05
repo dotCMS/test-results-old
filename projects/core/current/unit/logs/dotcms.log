@@ -1,51 +1,51 @@
-[05/08/20 19:05:36:417 GMT]  INFO util.Config: Initializing properties reader.
-[05/08/20 19:05:36:418 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[05/08/20 19:05:36:494 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[05/08/20 19:05:36:547 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[05/08/20 19:05:36:548 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[05/08/20 19:05:36:551 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[05/08/20 19:05:37:063 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
-[05/08/20 19:05:37:064 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
-[05/08/20 19:05:37:071 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
-[05/08/20 19:05:37:071 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
-[05/08/20 19:05:37:183 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
-[05/08/20 19:05:37:292 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
-[05/08/20 19:05:37:355 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[05/08/20 19:05:37:360 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[05/08/20 19:05:37:361 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[05/08/20 19:05:37:367 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[05/08/20 19:05:37:368 GMT]  WARN lang.System: No Valid License Found : /build/src/core/dotCMS/./dotsecure/license/license.dat
-[05/08/20 19:05:37:368 GMT]  INFO enterprise.LicenseUtil: Setting up default license
-[05/08/20 19:05:37:375 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
-[05/08/20 19:05:37:375 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
-[05/08/20 19:05:37:375 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
-[05/08/20 19:05:37:375 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
-[05/08/20 19:05:37:376 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
-[05/08/20 19:05:37:376 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
-[05/08/20 19:05:37:376 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
-[05/08/20 19:05:37:376 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
-[05/08/20 19:05:37:376 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
-[05/08/20 19:05:37:377 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
-[05/08/20 19:05:37:378 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
-[05/08/20 19:05:37:378 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
-[05/08/20 19:05:37:378 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
-[05/08/20 19:05:37:379 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
-[05/08/20 19:05:37:380 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
-[05/08/20 19:05:37:380 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
-[05/08/20 19:05:37:380 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
-[05/08/20 19:05:37:634 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[05/08/20 19:05:37:636 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[05/08/20 19:05:38:686 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[05/08/20 21:35:55:265 GMT]  INFO util.Config: Initializing properties reader.
+[05/08/20 21:35:55:267 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[05/08/20 21:35:55:327 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[05/08/20 21:35:55:367 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[05/08/20 21:35:55:368 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[05/08/20 21:35:55:370 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[05/08/20 21:35:55:834 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[05/08/20 21:35:55:835 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[05/08/20 21:35:55:843 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
+[05/08/20 21:35:55:843 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
+[05/08/20 21:35:55:976 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[05/08/20 21:35:56:099 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[05/08/20 21:35:56:172 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[05/08/20 21:35:56:177 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[05/08/20 21:35:56:178 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[05/08/20 21:35:56:188 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[05/08/20 21:35:56:189 GMT]  WARN lang.System: No Valid License Found : /build/src/core/dotCMS/./dotsecure/license/license.dat
+[05/08/20 21:35:56:189 GMT]  INFO enterprise.LicenseUtil: Setting up default license
+[05/08/20 21:35:56:194 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
+[05/08/20 21:35:56:194 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
+[05/08/20 21:35:56:195 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
+[05/08/20 21:35:56:196 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
+[05/08/20 21:35:56:196 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
+[05/08/20 21:35:56:196 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
+[05/08/20 21:35:56:196 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
+[05/08/20 21:35:56:196 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
+[05/08/20 21:35:56:437 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[05/08/20 21:35:56:439 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[05/08/20 21:35:57:503 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -78,10 +78,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 19 more
-[05/08/20 19:05:38:686 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[05/08/20 19:05:38:687 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[05/08/20 19:05:38:687 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[05/08/20 19:05:38:697 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[05/08/20 21:35:57:503 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[05/08/20 21:35:57:503 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[05/08/20 21:35:57:504 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[05/08/20 21:35:57:511 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -96,7 +96,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:153) ~[main/:?]
 	at com.dotcms.enterprise.license.LicenseManager$1.run(SourceFile:162) ~[ee-master-SNAPSHOT.jar:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[05/08/20 19:05:38:697 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[05/08/20 21:35:57:511 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]

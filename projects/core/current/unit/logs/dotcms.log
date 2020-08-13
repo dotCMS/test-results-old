@@ -1,52 +1,52 @@
-[13/08/20 16:02:38:089 GMT]  INFO util.Config: Initializing properties reader.
-[13/08/20 16:02:38:094 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:38:162 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:38:212 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:38:213 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:38:215 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[13/08/20 16:02:38:710 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
-[13/08/20 16:02:38:711 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
-[13/08/20 16:02:38:719 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
-[13/08/20 16:02:38:719 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
-[13/08/20 16:02:39:303 GMT]  INFO util.GeoIp2CityDbUtil: Connecting to GeoIP2 database:/build/src/core/dotCMS/src/main/webapp/WEB-INF/geoip2/GeoLite2-City.mmdb
-[13/08/20 16:02:39:413 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
-[13/08/20 16:02:39:531 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
-[13/08/20 16:02:39:587 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[13/08/20 16:02:39:590 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[13/08/20 16:02:39:591 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[13/08/20 16:02:39:597 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
-[13/08/20 16:02:39:598 GMT]  WARN lang.System: No Valid License Found : /build/src/core/dotCMS/./dotsecure/license/license.dat
-[13/08/20 16:02:39:598 GMT]  INFO enterprise.LicenseUtil: Setting up default license
-[13/08/20 16:02:39:603 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
-[13/08/20 16:02:39:603 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
-[13/08/20 16:02:39:603 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
-[13/08/20 16:02:39:603 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
-[13/08/20 16:02:39:604 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
-[13/08/20 16:02:39:605 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
-[13/08/20 16:02:39:605 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
-[13/08/20 16:02:39:605 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
-[13/08/20 16:02:39:917 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:39:919 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:40:975 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:03:49:253 GMT]  INFO util.Config: Initializing properties reader.
+[13/08/20 17:03:49:256 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:03:49:310 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:03:49:350 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:03:49:351 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:03:49:352 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[13/08/20 17:03:49:728 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[13/08/20 17:03:49:729 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[13/08/20 17:03:49:735 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
+[13/08/20 17:03:49:735 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
+[13/08/20 17:03:50:189 GMT]  INFO util.GeoIp2CityDbUtil: Connecting to GeoIP2 database:/build/src/core/dotCMS/src/main/webapp/WEB-INF/geoip2/GeoLite2-City.mmdb
+[13/08/20 17:03:50:266 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[13/08/20 17:03:50:371 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[13/08/20 17:03:50:411 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[13/08/20 17:03:50:414 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[13/08/20 17:03:50:415 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[13/08/20 17:03:50:420 GMT] FATAL util.FileUtil: Config.CONTEXT not initialized with a servlet context, dying
+[13/08/20 17:03:50:420 GMT]  WARN lang.System: No Valid License Found : /build/src/core/dotCMS/./dotsecure/license/license.dat
+[13/08/20 17:03:50:420 GMT]  INFO enterprise.LicenseUtil: Setting up default license
+[13/08/20 17:03:50:423 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
+[13/08/20 17:03:50:423 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
+[13/08/20 17:03:50:423 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
+[13/08/20 17:03:50:424 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
+[13/08/20 17:03:50:621 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:03:50:624 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:03:51:678 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -79,10 +79,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 19 more
-[13/08/20 16:02:40:975 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:40:975 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:40:976 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:40:984 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:03:51:678 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:03:51:678 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:03:51:679 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:03:51:686 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -97,7 +97,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:153) ~[main/:?]
 	at com.dotcms.enterprise.license.LicenseManager$1.run(SourceFile:162) ~[ee-5.3.6.jar:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:40:984 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:03:51:686 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -107,17 +107,17 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:153) ~[main/:?]
 	at com.dotcms.enterprise.license.LicenseManager$1.run(SourceFile:162) ~[ee-5.3.6.jar:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:40:985 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:40:985 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:40:990 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:40:991 GMT] ERROR cluster.ClusterFactory: can't remove from cluster
+[13/08/20 17:03:51:687 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:03:51:687 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:03:51:688 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:03:51:688 GMT] ERROR cluster.ClusterFactory: can't remove from cluster
 com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.DbConnectionFactory.getConnection(DbConnectionFactory.java:222) ~[main/:?]
 	at com.dotmarketing.db.DbConnectionFactory.startTransactionIfNeeded(DbConnectionFactory.java:666) ~[main/:?]
 	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:153) ~[main/:?]
 	at com.dotcms.enterprise.license.LicenseManager$1.run(SourceFile:162) ~[ee-5.3.6.jar:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:41:986 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:03:52:688 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -261,10 +261,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 130 more
-[13/08/20 16:02:41:986 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:41:986 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:41:987 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:41:991 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:03:52:688 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:03:52:688 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:03:52:689 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:03:52:689 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -390,7 +390,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:41:991 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:03:52:689 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -511,10 +511,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:41:991 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:41:997 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:41:997 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:42:998 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:03:52:689 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:03:52:695 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:03:52:695 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:03:53:695 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -658,10 +658,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 130 more
-[13/08/20 16:02:42:998 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:42:998 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:42:999 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:42:999 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:03:53:696 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:03:53:696 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:03:53:697 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:03:53:697 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -787,7 +787,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:42:999 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:03:53:697 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -908,10 +908,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:42:999 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:43:000 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:43:000 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:44:001 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:03:53:697 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:03:53:697 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:03:53:698 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:03:54:699 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -1055,10 +1055,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 130 more
-[13/08/20 16:02:44:001 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:44:001 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:44:002 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:44:002 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:03:54:699 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:03:54:699 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:03:54:700 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:03:54:700 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -1184,7 +1184,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:44:002 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:03:54:700 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -1305,38 +1305,38 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:44:002 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
-[13/08/20 16:02:44:035 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
-[13/08/20 16:02:44:036 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
-[13/08/20 16:02:44:042 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
-[13/08/20 16:02:44:043 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
-[13/08/20 16:02:44:063 GMT]  INFO caffine.CaffineCache: ***	 Building Cache : tagsbyinodecache, size:1000,Concurrency:32
-[13/08/20 16:02:44:087 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:44:087 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:45:089 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:03:54:700 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : esquerycache: 10000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : default: 1000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : adminconfigpool: 100
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : companypool: 10
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : contentletcache: 5000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : csscache: 2500
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : fileassetmetadatacache: 1000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifiercache: 50000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : indiciescache: 8
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : logmappercache: 10
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : navcache: 1000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : parentpermissionablecache: 10000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : permissioncache: 50000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : portletpool: 100
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : publishingendpointcache: 100
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : pushedassetscache: 5000
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : templatecache: 500
+[13/08/20 17:03:54:736 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : translatedquerycache: 5000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioncache: 50000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : versioninfocache: 50000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowactioncache: 10000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : workflowtaskcache: 10000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : shorty: 25000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : identifier404cache: 5000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : velocitycache: 1000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurldirectcache: 25000
+[13/08/20 17:03:54:737 GMT]  INFO caffine.CaffineCache: ***	 Cache Config Memory : vanityurlsitecache: 5000
+[13/08/20 17:03:54:742 GMT]  INFO caffine.CaffineCache: ***	 Building Cache : tagsbyinodecache, size:1000,Concurrency:32
+[13/08/20 17:03:54:769 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:03:54:769 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:03:55:771 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -1427,10 +1427,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 77 more
-[13/08/20 16:02:45:090 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:45:090 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:45:090 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:45:090 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:03:55:771 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:03:55:771 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:03:55:772 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:03:55:772 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -1503,7 +1503,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:45:090 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:03:55:772 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -1571,33 +1571,33 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:45:090 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:45:123 GMT]  WARN filters.NormalizationFilter$1: Illegal character in path at index 1: /\///folder//important////secret_file.dat
-[13/08/20 16:02:45:123 GMT]  WARN filters.NormalizationFilter$1: Illegal character in path at index 1: /\///folder//important////secret_file.dat
-[13/08/20 16:02:45:123 GMT]  WARN filters.NormalizationFilter$1: java.net.URI.create(URI.java:852)
-[13/08/20 16:02:46:890 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:46:955 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:46:985 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:46:986 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:46:987 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[13/08/20 16:02:47:447 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:47:452 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:47:453 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:47:454 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:47:775 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
-[13/08/20 16:02:47:775 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
-[13/08/20 16:02:47:782 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
-[13/08/20 16:02:47:782 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
-[13/08/20 16:02:49:121 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:49:189 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:49:223 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:49:224 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:49:225 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[13/08/20 16:02:49:760 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:49:764 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:49:765 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:49:766 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:50:660 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='user', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
+[13/08/20 17:03:55:772 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:03:55:806 GMT]  WARN filters.NormalizationFilter$1: Illegal character in path at index 1: /\///folder//important////secret_file.dat
+[13/08/20 17:03:55:806 GMT]  WARN filters.NormalizationFilter$1: Illegal character in path at index 1: /\///folder//important////secret_file.dat
+[13/08/20 17:03:55:806 GMT]  WARN filters.NormalizationFilter$1: java.net.URI.create(URI.java:852)
+[13/08/20 17:03:57:152 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:03:57:205 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:03:57:237 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:03:57:238 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:03:57:239 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[13/08/20 17:03:57:640 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:03:57:644 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:03:57:645 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:03:57:645 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:03:57:860 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[13/08/20 17:03:57:860 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[13/08/20 17:03:57:865 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[13/08/20 17:03:57:865 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[13/08/20 17:03:58:968 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:03:59:036 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:03:59:062 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:03:59:062 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:03:59:063 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[13/08/20 17:03:59:382 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:03:59:385 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:03:59:386 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:03:59:386 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:04:00:203 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='user', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.CreateTokenForm.<init>(CreateTokenForm.java:33) ~[main/:?]
@@ -1652,26 +1652,26 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:50:729 GMT]  INFO caffine.CaffineCache: ***	 Building Cache : companypool, size:10,Concurrency:32
-[13/08/20 16:02:50:737 GMT]  INFO cfg.Environment: Hibernate 2.1.8
-[13/08/20 16:02:50:738 GMT]  INFO cfg.Environment: hibernate.properties not found
-[13/08/20 16:02:50:739 GMT]  INFO cfg.Environment: using CGLIB reflection optimizer
-[13/08/20 16:02:50:739 GMT]  INFO cfg.Environment: using JDK 1.4 java.sql.Timestamp handling
-[13/08/20 16:02:50:740 GMT]  INFO cfg.Configuration: configuring from resource: /hibernate.cfg.xml
-[13/08/20 16:02:50:740 GMT]  INFO cfg.Configuration: Configuration resource: /hibernate.cfg.xml
-[13/08/20 16:02:50:794 GMT]  INFO cfg.Configuration: Configured SessionFactory: null
-[13/08/20 16:02:50:794 GMT]  INFO cfg.Configuration: Mapping resource: META-INF/portal-hbm.xml
-[13/08/20 16:02:50:865 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.AddressHBM -> Address
-[13/08/20 16:02:50:897 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.CompanyHBM -> Company
-[13/08/20 16:02:50:899 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.ImageHBM -> Image
-[13/08/20 16:02:50:899 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.PasswordTrackerHBM -> PasswordTracker
-[13/08/20 16:02:50:900 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserHBM -> User_
-[13/08/20 16:02:50:903 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserTrackerHBM -> UserTracker
-[13/08/20 16:02:50:903 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserTrackerPathHBM -> UserTrackerPath
-[13/08/20 16:02:50:904 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portlet.admin.ejb.AdminConfigHBM -> AdminConfig
-[13/08/20 16:02:50:905 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:50:905 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:51:905 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:00:259 GMT]  INFO caffine.CaffineCache: ***	 Building Cache : companypool, size:10,Concurrency:32
+[13/08/20 17:04:00:265 GMT]  INFO cfg.Environment: Hibernate 2.1.8
+[13/08/20 17:04:00:265 GMT]  INFO cfg.Environment: hibernate.properties not found
+[13/08/20 17:04:00:266 GMT]  INFO cfg.Environment: using CGLIB reflection optimizer
+[13/08/20 17:04:00:266 GMT]  INFO cfg.Environment: using JDK 1.4 java.sql.Timestamp handling
+[13/08/20 17:04:00:267 GMT]  INFO cfg.Configuration: configuring from resource: /hibernate.cfg.xml
+[13/08/20 17:04:00:267 GMT]  INFO cfg.Configuration: Configuration resource: /hibernate.cfg.xml
+[13/08/20 17:04:00:313 GMT]  INFO cfg.Configuration: Configured SessionFactory: null
+[13/08/20 17:04:00:313 GMT]  INFO cfg.Configuration: Mapping resource: META-INF/portal-hbm.xml
+[13/08/20 17:04:00:357 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.AddressHBM -> Address
+[13/08/20 17:04:00:387 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.CompanyHBM -> Company
+[13/08/20 17:04:00:388 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.ImageHBM -> Image
+[13/08/20 17:04:00:389 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.PasswordTrackerHBM -> PasswordTracker
+[13/08/20 17:04:00:389 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserHBM -> User_
+[13/08/20 17:04:00:391 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserTrackerHBM -> UserTracker
+[13/08/20 17:04:00:392 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portal.ejb.UserTrackerPathHBM -> UserTrackerPath
+[13/08/20 17:04:00:392 GMT]  INFO cfg.Binder: Mapping class: com.liferay.portlet.admin.ejb.AdminConfigHBM -> AdminConfig
+[13/08/20 17:04:00:393 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:00:393 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:01:394 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -1777,10 +1777,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 92 more
-[13/08/20 16:02:51:906 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:51:906 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:51:906 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:51:906 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:01:394 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:01:394 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:01:394 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:01:395 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -1868,7 +1868,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:51:906 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:01:395 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -1951,10 +1951,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:51:906 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:51:907 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:51:907 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:52:908 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:01:395 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:01:395 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:01:395 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:02:403 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -2060,10 +2060,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 92 more
-[13/08/20 16:02:52:908 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:52:908 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:52:909 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:52:909 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:02:403 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:02:403 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:02:404 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:02:404 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -2151,7 +2151,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:52:909 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:02:404 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -2234,10 +2234,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:52:909 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:52:910 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:52:911 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:53:912 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:02:404 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:02:405 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:02:405 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:03:406 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -2343,10 +2343,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 92 more
-[13/08/20 16:02:53:912 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:53:912 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:53:913 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:53:913 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:03:406 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:03:406 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:03:408 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:03:408 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -2434,7 +2434,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:53:913 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:03:408 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -2517,10 +2517,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:53:913 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:53:913 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:53:914 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:54:915 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:03:408 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:03:413 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:03:413 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:04:413 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -2626,10 +2626,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 92 more
-[13/08/20 16:02:54:915 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:54:915 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:54:915 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:54:915 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:04:414 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:04:414 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:04:414 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:04:415 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -2717,7 +2717,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:54:915 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:04:415 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -2800,10 +2800,10 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:54:915 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:54:916 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:54:916 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:55:917 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:04:415 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:04:416 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:04:416 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:05:417 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -2909,10 +2909,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 92 more
-[13/08/20 16:02:55:917 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:55:917 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:55:918 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:55:918 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:05:417 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:05:417 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:05:418 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:05:418 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -3000,7 +3000,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:55:918 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:05:418 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -3083,26 +3083,26 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:55:918 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:55:919 GMT]  INFO cfg.Configuration: processing one-to-many association mappings
-[13/08/20 16:02:55:919 GMT]  INFO cfg.Configuration: processing one-to-one association property references
-[13/08/20 16:02:55:919 GMT]  INFO cfg.Configuration: processing foreign key constraints
-[13/08/20 16:02:55:928 GMT]  WARN cfg.SettingsFactory: No dialect set - using GenericDialect: The dialect was not set. Set the property hibernate.dialect.
-[13/08/20 16:02:55:930 GMT]  INFO dialect.Dialect: Using dialect: com.dotcms.repackage.net.sf.hibernate.dialect.GenericDialect
-[13/08/20 16:02:55:932 GMT]  INFO cfg.SettingsFactory: Use outer join fetching: true
-[13/08/20 16:02:55:941 GMT]  WARN connection.UserSuppliedConnectionProvider: No connection properties specified - the user must supply JDBC connections
-[13/08/20 16:02:55:943 GMT]  INFO transaction.TransactionManagerLookupFactory: No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
-[13/08/20 16:02:55:943 GMT]  INFO cfg.SettingsFactory: Use scrollable result sets: true
-[13/08/20 16:02:55:943 GMT]  INFO cfg.SettingsFactory: Use JDBC3 getGeneratedKeys(): false
-[13/08/20 16:02:55:943 GMT]  INFO cfg.SettingsFactory: Optimize cache for minimal puts: false
-[13/08/20 16:02:55:943 GMT]  INFO cfg.SettingsFactory: Query language substitutions: {}
-[13/08/20 16:02:55:943 GMT]  INFO cfg.SettingsFactory: cache provider: com.dotmarketing.db.NoCacheProvider
-[13/08/20 16:02:55:943 GMT]  INFO cfg.Configuration: instantiating and configuring caches
-[13/08/20 16:02:56:042 GMT]  INFO impl.SessionFactoryImpl: building session factory
-[13/08/20 16:02:56:364 GMT]  INFO impl.SessionFactoryObjectFactory: Not binding factory to JNDI, no JNDI name configured
-[13/08/20 16:02:56:365 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:02:56:365 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:02:57:366 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:05:418 GMT]  WARN db.DbConnectionFactory: unable to determine dbType:com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:05:419 GMT]  INFO cfg.Configuration: processing one-to-many association mappings
+[13/08/20 17:04:05:419 GMT]  INFO cfg.Configuration: processing one-to-one association property references
+[13/08/20 17:04:05:419 GMT]  INFO cfg.Configuration: processing foreign key constraints
+[13/08/20 17:04:05:428 GMT]  WARN cfg.SettingsFactory: No dialect set - using GenericDialect: The dialect was not set. Set the property hibernate.dialect.
+[13/08/20 17:04:05:428 GMT]  INFO dialect.Dialect: Using dialect: com.dotcms.repackage.net.sf.hibernate.dialect.GenericDialect
+[13/08/20 17:04:05:431 GMT]  INFO cfg.SettingsFactory: Use outer join fetching: true
+[13/08/20 17:04:05:431 GMT]  WARN connection.UserSuppliedConnectionProvider: No connection properties specified - the user must supply JDBC connections
+[13/08/20 17:04:05:433 GMT]  INFO transaction.TransactionManagerLookupFactory: No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+[13/08/20 17:04:05:433 GMT]  INFO cfg.SettingsFactory: Use scrollable result sets: true
+[13/08/20 17:04:05:433 GMT]  INFO cfg.SettingsFactory: Use JDBC3 getGeneratedKeys(): false
+[13/08/20 17:04:05:433 GMT]  INFO cfg.SettingsFactory: Optimize cache for minimal puts: false
+[13/08/20 17:04:05:433 GMT]  INFO cfg.SettingsFactory: Query language substitutions: {}
+[13/08/20 17:04:05:433 GMT]  INFO cfg.SettingsFactory: cache provider: com.dotmarketing.db.NoCacheProvider
+[13/08/20 17:04:05:433 GMT]  INFO cfg.Configuration: instantiating and configuring caches
+[13/08/20 17:04:05:490 GMT]  INFO impl.SessionFactoryImpl: building session factory
+[13/08/20 17:04:05:775 GMT]  INFO impl.SessionFactoryObjectFactory: Not binding factory to JNDI, no JNDI name configured
+[13/08/20 17:04:05:775 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:05:776 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:06:777 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -3206,10 +3206,10 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 90 more
-[13/08/20 16:02:57:366 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:02:57:366 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:02:57:367 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:02:57:367 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
+[13/08/20 17:04:06:777 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:06:777 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:06:777 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:06:777 GMT] ERROR db.TomcatDataSourceStrategy: ---------- Error getting dbconnection jdbc/dotCMSPool from context.xml
 javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662) ~[?:1.8.0_212]
 	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313) ~[?:1.8.0_212]
@@ -3295,7 +3295,7 @@ javax.naming.NoInitialContextException: Need to specify class name in environmen
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:57:367 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
+[13/08/20 17:04:06:777 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error getting dbconnection jdbc/dotCMSPool
 com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
 	at com.dotmarketing.db.TomcatDataSourceStrategy.apply(TomcatDataSourceStrategy.java:43) ~[main/:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:99) ~[main/:?]
@@ -3376,8 +3376,8 @@ com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextExc
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:57:367 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
-[13/08/20 16:02:57:403 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='user', message='length must be between 2 and 100', fieldName='null'}]
+[13/08/20 17:04:06:777 GMT] ERROR db.DbConnectionFactory: ---------- DBConnectionFactory: error : com.dotmarketing.exception.DotRuntimeException: com.dotmarketing.exception.DotRuntimeException: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[13/08/20 17:04:06:786 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='user', message='length must be between 2 and 100', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.CreateTokenForm.<init>(CreateTokenForm.java:33) ~[main/:?]
@@ -3432,7 +3432,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:57:403 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='user', message='length must be between 2 and 100', fieldName='null'}]
+[13/08/20 17:04:06:786 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='user', message='length must be between 2 and 100', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.CreateTokenForm.<init>(CreateTokenForm.java:33) ~[main/:?]
@@ -3487,7 +3487,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:57:404 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:06:789 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.CreateTokenForm.<init>(CreateTokenForm.java:33) ~[main/:?]
@@ -3542,74 +3542,20 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:58:547 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:58:612 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:58:641 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:58:642 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:58:643 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[13/08/20 16:02:59:104 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:02:59:110 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:02:59:111 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:02:59:115 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:02:59:275 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
-[13/08/20 16:02:59:275 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
-[13/08/20 16:02:59:282 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
-[13/08/20 16:02:59:282 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
-[13/08/20 16:02:59:950 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}]
-com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
-	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:61) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:53) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm$Builder.build(AuthenticationForm.java:108) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationResourceTest.testEmptyParameter(AuthenticationResourceTest.java:61) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[?:?]
-	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[?:?]
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:59:940 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='token', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:07:707 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:04:07:770 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:04:07:795 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:04:07:796 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:04:07:798 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[13/08/20 17:04:08:117 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:04:08:120 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:04:08:120 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:04:08:121 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:04:08:248 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[13/08/20 17:04:08:249 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[13/08/20 17:04:08:254 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal.properties
+[13/08/20 17:04:08:254 GMT]  INFO util.PropsLoader: Loading file:/build/src/core/dotCMS/build/resources/main/portal-ext.properties
+[13/08/20 17:04:08:788 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='token', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.ResetPasswordForm.<init>(ResetPasswordForm.java:31) ~[main/:?]
@@ -3671,7 +3617,115 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:02:59:942 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='token', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:08:820 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
+com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
+	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:61) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:53) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm$Builder.build(AuthenticationForm.java:108) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationResourceTest.testEmptyParameter(AuthenticationResourceTest.java:61) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[?:?]
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[?:?]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[13/08/20 17:04:08:864 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}]
+com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
+	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:61) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:53) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationForm$Builder.build(AuthenticationForm.java:108) ~[main/:?]
+	at com.dotcms.rest.api.v1.authentication.AuthenticationResourceTest.testWrongParameter(AuthenticationResourceTest.java:74) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[?:?]
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[?:?]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[13/08/20 17:04:08:801 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='token', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.ResetPasswordForm.<init>(ResetPasswordForm.java:31) ~[main/:?]
@@ -3733,61 +3787,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:056 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}, ErrorEntity{errorCode='password', message='may not be null', fieldName='null'}]
-com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
-	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:61) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:53) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationForm$Builder.build(AuthenticationForm.java:108) ~[main/:?]
-	at com.dotcms.rest.api.v1.authentication.AuthenticationResourceTest.testWrongParameter(AuthenticationResourceTest.java:74) ~[test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[?:?]
-	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) ~[?:?]
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) ~[?:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[?:?]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) ~[?:?]
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[?:?]
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:064 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}]
+[13/08/20 17:04:08:864 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.AuthenticationForm.<init>(AuthenticationForm.java:61) ~[main/:?]
@@ -3841,7 +3841,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:092 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:08:888 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.ForgotPasswordForm.<init>(ForgotPasswordForm.java:22) ~[main/:?]
@@ -3896,7 +3896,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:146 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}]
+[13/08/20 17:04:08:920 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='length must be between 2 and 100', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.authentication.ForgotPasswordForm.<init>(ForgotPasswordForm.java:22) ~[main/:?]
@@ -3951,7 +3951,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:273 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be empty', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:08:998 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be empty', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.user.UpdateUserForm.<init>(UpdateUserForm.java:39) ~[main/:?]
@@ -4005,7 +4005,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:276 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='givenName', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='givenName', message='may not be empty', fieldName='null'}]
+[13/08/20 17:04:08:999 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='givenName', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='givenName', message='may not be empty', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.user.UpdateUserForm.<init>(UpdateUserForm.java:39) ~[main/:?]
@@ -4059,7 +4059,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:278 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='surname', message='may not be empty', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be empty', fieldName='null'}, ErrorEntity{errorCode='surname', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:09:001 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='userId', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='surname', message='may not be null', fieldName='null'}, ErrorEntity{errorCode='userId', message='may not be empty', fieldName='null'}, ErrorEntity{errorCode='surname', message='may not be empty', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.rest.api.v1.user.UpdateUserForm.<init>(UpdateUserForm.java:39) ~[main/:?]
@@ -4113,9 +4113,9 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:296 GMT]  WARN util.LocaleUtil: null is not a valid language id
-[13/08/20 16:03:00:308 GMT]  WARN util.LocaleUtil: null is not a valid language id
-[13/08/20 16:03:00:484 GMT] ERROR site.SiteResource: Exception on switch site exception message: null
+[13/08/20 17:04:09:026 GMT]  WARN util.LocaleUtil: null is not a valid language id
+[13/08/20 17:04:09:028 GMT]  WARN util.LocaleUtil: null is not a valid language id
+[13/08/20 17:04:09:155 GMT] ERROR site.SiteResource: Exception on switch site exception message: null
 java.lang.NullPointerException: null
 	at com.dotcms.rest.api.v1.site.SiteHelper.switchToDefaultHost(SiteHelper.java:193) ~[main/:?]
 	at com.dotcms.rest.api.v1.site.SiteResource.switchSite(SiteResource.java:235) ~[main/:?]
@@ -4167,8 +4167,8 @@ java.lang.NullPointerException: null
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:518 GMT]  WARN util.LocaleUtil: 1 is not a valid language id
-[13/08/20 16:03:00:537 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='size must be between 2 and 100', fieldName='null'}]
+[13/08/20 17:04:09:184 GMT]  WARN util.LocaleUtil: 1 is not a valid language id
+[13/08/20 17:04:09:198 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='size must be between 2 and 100', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.workflow.form.WorkflowSchemeForm.<init>(WorkflowSchemeForm.java:24) ~[main/:?]
@@ -4220,7 +4220,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:642 GMT] ERROR workflow.WorkflowResource: Exception attempting to update schema identified by : 3a5f1da7-c304-4f2b-867a-df3ef3578955, exception message: No exists workflow
+[13/08/20 17:04:09:277 GMT] ERROR workflow.WorkflowResource: Exception attempting to update schema identified by : 3a5f1da7-c304-4f2b-867a-df3ef3578955, exception message: No exists workflow
 com.dotmarketing.exception.DoesNotExistException: No exists workflow
 	at com.dotcms.rest.api.v1.workflow.WorkflowResource.updateScheme(WorkflowResource.java:2356) ~[main/:?]
 	at com.dotcms.rest.api.v1.workflow.WorkflowResourceTest.testUpdateNonExistingScheme(WorkflowResourceTest.java:166) ~[test/:?]
@@ -4269,7 +4269,7 @@ com.dotmarketing.exception.DoesNotExistException: No exists workflow
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:649 GMT] ERROR workflow.WorkflowResource: Exception on save, schema named: anyUniqueSchemaName, exception message: Error Saving workflow
+[13/08/20 17:04:09:294 GMT] ERROR workflow.WorkflowResource: Exception on save, schema named: anyUniqueSchemaName, exception message: Error Saving workflow
 com.dotmarketing.exception.AlreadyExistException: Error Saving workflow
 	at com.dotcms.rest.api.v1.workflow.WorkflowResource.saveScheme(WorkflowResource.java:2326) ~[main/:?]
 	at com.dotcms.rest.api.v1.workflow.WorkflowResourceTest.testSaveExistingSchemeDupeName(WorkflowResourceTest.java:152) ~[test/:?]
@@ -4318,7 +4318,7 @@ com.dotmarketing.exception.AlreadyExistException: Error Saving workflow
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:653 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:09:297 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.workflow.form.WorkflowSchemeForm.<init>(WorkflowSchemeForm.java:24) ~[main/:?]
@@ -4370,7 +4370,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:653 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='may not be null', fieldName='null'}]
+[13/08/20 17:04:09:298 GMT]  WARN exception.ValidationException: [ErrorEntity{errorCode='schemeName', message='may not be null', fieldName='null'}]
 com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at com.dotcms.rest.api.Validated.checkValid(Validated.java:28) ~[main/:?]
 	at com.dotcms.workflow.form.WorkflowSchemeForm.<init>(WorkflowSchemeForm.java:24) ~[main/:?]
@@ -4422,7 +4422,7 @@ com.dotcms.rest.exception.ValidationException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:666 GMT]  WARN exception.InternalServerException: {"error":"dotcms.api.error.internal_server_error: Root cannot be null."}
+[13/08/20 17:04:09:308 GMT]  WARN exception.InternalServerException: {"error":"dotcms.api.error.internal_server_error: Root cannot be null."}
 com.dotcms.rest.exception.InternalServerException: HTTP 400 Bad Request
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -4479,9 +4479,9 @@ com.dotcms.rest.exception.InternalServerException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:00:687 GMT]  WARN i18n.I18NResource: Resource message key is defined as both a key and a value: foo.bar
-[13/08/20 16:03:00:687 GMT]  WARN i18n.I18NResource: Ignoring value: foo.bar=Hello_Two
-[13/08/20 16:03:00:710 GMT]  WARN exception.InternalServerException: {"error":"dotcms.api.error.internal_server_error: PathKeys cannot be null."}
+[13/08/20 17:04:09:335 GMT]  WARN i18n.I18NResource: Resource message key is defined as both a key and a value: foo.bar
+[13/08/20 17:04:09:335 GMT]  WARN i18n.I18NResource: Ignoring value: foo.bar=Hello_Two
+[13/08/20 17:04:09:359 GMT]  WARN exception.InternalServerException: {"error":"dotcms.api.error.internal_server_error: PathKeys cannot be null."}
 com.dotcms.rest.exception.InternalServerException: HTTP 400 Bad Request
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -4538,24 +4538,24 @@ com.dotcms.rest.exception.InternalServerException: HTTP 400 Bad Request
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:39:908 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:03:39:977 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:03:40:009 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:03:40:010 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:03:40:011 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
-[13/08/20 16:03:40:532 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
-[13/08/20 16:03:40:540 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
-[13/08/20 16:03:40:541 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
-[13/08/20 16:03:40:541 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
-[13/08/20 16:03:43:324 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://localhost/abc123, referer:null
-[13/08/20 16:03:43:325 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://demo.dotcms.com/dotAdmin/polyfills.js, referer:http://www.dotcms.com/
-[13/08/20 16:03:43:326 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://gmail.com/dotAdmin/polyfills.js, referer:https://demo.dotcms.com/testing
-[13/08/20 16:03:43:326 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://gmail.com/dotAdmin/polyfills.js, referer:null
-[13/08/20 16:03:43:328 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://demo.dotcms.com/ignorethisurixyz, referer:google
-[13/08/20 16:03:43:328 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://123.dotcms.com/ignoreunderthisuri, referer:google.com
-[13/08/20 16:03:43:330 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://345.dotcms.com/ignoreunderthisur/, referer:badSite
-[13/08/20 16:03:43:330 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://675.dotcms.com/./ignoreunderthisuri/235326egr4t/asdasd/asdasd, referer:localhost
-[13/08/20 16:03:43:376 GMT] ERROR util.ReflectionUtils: com.doesnotexists.NoExistingClass
+[13/08/20 17:04:48:316 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:04:48:369 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:04:48:393 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:04:48:394 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:04:48:395 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[13/08/20 17:04:48:817 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[13/08/20 17:04:48:819 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[13/08/20 17:04:48:820 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[13/08/20 17:04:48:820 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[13/08/20 17:04:50:774 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://localhost/abc123, referer:null
+[13/08/20 17:04:50:774 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://demo.dotcms.com/dotAdmin/polyfills.js, referer:http://www.dotcms.com/
+[13/08/20 17:04:50:775 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://gmail.com/dotAdmin/polyfills.js, referer:https://demo.dotcms.com/testing
+[13/08/20 17:04:50:776 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://gmail.com/dotAdmin/polyfills.js, referer:null
+[13/08/20 17:04:50:776 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://demo.dotcms.com/ignorethisurixyz, referer:google
+[13/08/20 17:04:50:777 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://123.dotcms.com/ignoreunderthisuri, referer:google.com
+[13/08/20 17:04:50:778 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://345.dotcms.com/ignoreunderthisur/, referer:badSite
+[13/08/20 17:04:50:779 GMT]  INFO util.SecurityUtils: InvalidReferer, ip:127.0.0.1, url:http://675.dotcms.com/./ignoreunderthisuri/235326egr4t/asdasd/asdasd, referer:localhost
+[13/08/20 17:04:50:821 GMT] ERROR util.ReflectionUtils: com.doesnotexists.NoExistingClass
 java.lang.ClassNotFoundException: com.doesnotexists.NoExistingClass
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_212]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_212]
@@ -4610,7 +4610,7 @@ java.lang.ClassNotFoundException: com.doesnotexists.NoExistingClass
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:43:377 GMT] ERROR util.ReflectionUtils: com.dotcms.util.ReflectionTestBean.<init>(java.lang.String, java.lang.String)
+[13/08/20 17:04:50:833 GMT] ERROR util.ReflectionUtils: com.dotcms.util.ReflectionTestBean.<init>(java.lang.String, java.lang.String)
 java.lang.NoSuchMethodException: com.dotcms.util.ReflectionTestBean.<init>(java.lang.String, java.lang.String)
 	at java.lang.Class.getConstructor0(Class.java:3082) ~[?:1.8.0_212]
 	at java.lang.Class.getDeclaredConstructor(Class.java:2178) ~[?:1.8.0_212]
@@ -4661,25 +4661,25 @@ java.lang.NoSuchMethodException: com.dotcms.util.ReflectionTestBean.<init>(java.
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:03:44:483 GMT]  INFO util.GeoIp2CityDbUtil: Connecting to GeoIP2 database:/build/src/core/dotCMS/src/main/webapp/WEB-INF/geoip2/GeoLite2-City.mmdb
-[13/08/20 16:03:46:550 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
-[13/08/20 16:03:46:552 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber1`  is `1` long. 
-[13/08/20 16:03:46:552 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
-[13/08/20 16:03:46:552 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber3`  is `1` long. 
-[13/08/20 16:03:46:553 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
-[13/08/20 16:03:46:554 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber3`  is `1` long. 
-[13/08/20 16:03:48:557 GMT]  INFO business.LocalSystemEventsAPIImpl: No subscriber associated to the event type: class com.dotcms.system.event.local.TestEventType1 and id: com.dotcms.system.event.local.TestAnnotatedForDeleteSubscriber#test
-[13/08/20 16:03:48:557 GMT]  INFO business.LocalSystemEventsAPIImpl: No subscriber associated to the event type: class com.dotcms.system.event.local.TestEventType1 and id: com.dotcms.system.event.local.TestAnnotatedForDeleteSubscriber#test
-[13/08/20 16:03:50:567 GMT] ERROR publishing.BundlerUtil: The name for the uploaded bundle is null or empty
-[13/08/20 16:03:50:568 GMT] ERROR publishing.BundlerUtil: The name for the uploaded bundle is null or empty
-[13/08/20 16:03:50:626 GMT] ERROR business.ESContentletAPIHelper: notification.escontentelet.cannotdelete.info.message
-[13/08/20 16:03:50:688 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
-[13/08/20 16:03:50:695 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
-[13/08/20 16:03:50:696 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
-[13/08/20 16:03:50:731 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
-[13/08/20 16:03:50:779 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
-[13/08/20 16:03:50:779 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:03:51:781 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:51:828 GMT]  INFO util.GeoIp2CityDbUtil: Connecting to GeoIP2 database:/build/src/core/dotCMS/src/main/webapp/WEB-INF/geoip2/GeoLite2-City.mmdb
+[13/08/20 17:04:53:884 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
+[13/08/20 17:04:53:885 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber1`  is `1` long. 
+[13/08/20 17:04:53:885 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
+[13/08/20 17:04:53:885 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber3`  is `1` long. 
+[13/08/20 17:04:53:885 GMT]  INFO business.LocalSystemEventsAPIImpl:  Broadcasting a Filterable Event.
+[13/08/20 17:04:53:885 GMT]  INFO business.LocalSystemEventsAPIImpl:  Filtered Audience for event with key `subscriber3`  is `1` long. 
+[13/08/20 17:04:55:889 GMT]  INFO business.LocalSystemEventsAPIImpl: No subscriber associated to the event type: class com.dotcms.system.event.local.TestEventType1 and id: com.dotcms.system.event.local.TestAnnotatedForDeleteSubscriber#test
+[13/08/20 17:04:55:889 GMT]  INFO business.LocalSystemEventsAPIImpl: No subscriber associated to the event type: class com.dotcms.system.event.local.TestEventType1 and id: com.dotcms.system.event.local.TestAnnotatedForDeleteSubscriber#test
+[13/08/20 17:04:57:896 GMT] ERROR publishing.BundlerUtil: The name for the uploaded bundle is null or empty
+[13/08/20 17:04:57:897 GMT] ERROR publishing.BundlerUtil: The name for the uploaded bundle is null or empty
+[13/08/20 17:04:57:938 GMT] ERROR business.ESContentletAPIHelper: notification.escontentelet.cannotdelete.info.message
+[13/08/20 17:04:57:973 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
+[13/08/20 17:04:57:978 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
+[13/08/20 17:04:57:980 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
+[13/08/20 17:04:57:990 GMT]  INFO translate.GoogleTranslationService: translating:https://www.googleapis.com/language/translate/v2?key=key
+[13/08/20 17:04:58:037 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[13/08/20 17:04:58:037 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:04:59:038 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -4694,8 +4694,8 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.2.jar:?]
 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81) ~[HikariCP-3.4.2.jar:?]
 	at com.dotmarketing.db.DBPropertiesDataSourceStrategy.apply(DBPropertiesDataSourceStrategy.java:63) ~[main/:?]
-	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$ad630b3c.CGLIB$apply$3(<generated>) ~[mockito-core-1.10.19.jar:?]
-	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$ad630b3c$$FastClassByMockitoWithCGLIB$$a02f0493.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$b5a78a19.CGLIB$apply$3(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$b5a78a19$$FastClassByMockitoWithCGLIB$$9b67b00b.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:20) ~[powermock-api-mockito-1.6.5.jar:?]
 	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21) ~[mockito-core-1.10.19.jar:?]
@@ -4706,10 +4706,10 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:60) ~[powermock-api-mockito-1.6.5.jar:?]
-	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$ad630b3c.apply(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DBPropertiesDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$b5a78a19.apply(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:68) ~[main/:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c.CGLIB$get$6(<generated>) ~[mockito-core-1.10.19.jar:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c$$FastClassByMockitoWithCGLIB$$19ee70c4.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819.CGLIB$get$6(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819$$FastClassByMockitoWithCGLIB$$242f3a3b.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:20) ~[powermock-api-mockito-1.6.5.jar:?]
 	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21) ~[mockito-core-1.10.19.jar:?]
@@ -4720,7 +4720,7 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:60) ~[powermock-api-mockito-1.6.5.jar:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c.get(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819.get(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at com.dotmarketing.db.DataSourceStrategyProviderTest.testGetFallback(DataSourceStrategyProviderTest.java:178) ~[test/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -4778,13 +4778,13 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 85 more
-[13/08/20 16:03:51:781 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:03:51:781 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:03:51:781 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:03:51:782 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:51:785 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-[13/08/20 16:03:51:786 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
-[13/08/20 16:03:52:787 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
+[13/08/20 17:04:59:039 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:04:59:039 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:04:59:039 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:04:59:039 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:04:59:045 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+[13/08/20 17:04:59:045 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
+[13/08/20 17:05:00:046 GMT] ERROR pool.HikariPool: jdbc/dotCMSPool - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.2.8.jar:42.2.8]
@@ -4799,8 +4799,8 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.4.2.jar:?]
 	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81) ~[HikariCP-3.4.2.jar:?]
 	at com.dotmarketing.db.SystemEnvDataSourceStrategy.apply(SystemEnvDataSourceStrategy.java:99) ~[main/:?]
-	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$3872a89.CGLIB$apply$0(<generated>) ~[mockito-core-1.10.19.jar:?]
-	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$3872a89$$FastClassByMockitoWithCGLIB$$4cf8df7c.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$bcba966.CGLIB$apply$0(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$bcba966$$FastClassByMockitoWithCGLIB$$4f10dcd3.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:20) ~[powermock-api-mockito-1.6.5.jar:?]
 	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21) ~[mockito-core-1.10.19.jar:?]
@@ -4811,10 +4811,10 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:60) ~[powermock-api-mockito-1.6.5.jar:?]
-	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$3872a89.apply(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.SystemEnvDataSourceStrategy$$EnhancerByMockitoWithCGLIB$$bcba966.apply(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at com.dotmarketing.db.DataSourceStrategyProvider.get(DataSourceStrategyProvider.java:74) ~[main/:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c.CGLIB$get$6(<generated>) ~[mockito-core-1.10.19.jar:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c$$FastClassByMockitoWithCGLIB$$19ee70c4.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819.CGLIB$get$6(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819$$FastClassByMockitoWithCGLIB$$242f3a3b.invoke(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:216) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.DelegatingMockitoMethodProxy.invokeSuper(DelegatingMockitoMethodProxy.java:20) ~[powermock-api-mockito-1.6.5.jar:?]
 	at org.mockito.internal.invocation.realmethod.DefaultRealMethod.invoke(DefaultRealMethod.java:21) ~[mockito-core-1.10.19.jar:?]
@@ -4825,7 +4825,7 @@ org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check t
 	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-1.10.19.jar:?]
 	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38) ~[mockito-core-1.10.19.jar:?]
 	at org.powermock.api.mockito.repackaged.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:60) ~[powermock-api-mockito-1.6.5.jar:?]
-	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$d970d93c.get(<generated>) ~[mockito-core-1.10.19.jar:?]
+	at com.dotmarketing.db.DataSourceStrategyProvider$$EnhancerByMockitoWithCGLIB$$e1b55819.get(<generated>) ~[mockito-core-1.10.19.jar:?]
 	at com.dotmarketing.db.DataSourceStrategyProviderTest.testGetFallback(DataSourceStrategyProviderTest.java:178) ~[test/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -4883,46 +4883,46 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91) ~[postgresql-42.2.8.jar:42.2.8]
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192) ~[postgresql-42.2.8.jar:42.2.8]
 	... 85 more
-[13/08/20 16:03:52:788 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
-[13/08/20 16:03:52:788 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-[13/08/20 16:03:52:788 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
-[13/08/20 16:03:52:788 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:789 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Unable to find any secrets under [/run/secrets/]Trying to load datasource from context.xml ...
-[13/08/20 16:03:52:789 GMT]  WARN db.DataSourceStrategyProvider: Unable to find any secrets under [/run/secrets/]
-[13/08/20 16:03:52:789 GMT]  WARN db.DataSourceStrategyProvider: com.dotmarketing.db.DockerSecretsUtil.load(DockerSecretsUtil.java:77)
-[13/08/20 16:03:52:789 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:792 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:793 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: DummyProviderTrying to load datasource from context.xml ...
-[13/08/20 16:03:52:793 GMT]  WARN db.DataSourceStrategyProvider: DummyProvider
-[13/08/20 16:03:52:793 GMT]  WARN db.DataSourceStrategyProvider: java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-[13/08/20 16:03:52:793 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:803 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from db.properties file
-[13/08/20 16:03:52:805 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from system environment
-[13/08/20 16:03:52:809 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from Docker Secret
-[13/08/20 16:03:52:819 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:821 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: DummyProviderTrying to load datasource from context.xml ...
-[13/08/20 16:03:52:821 GMT]  WARN db.DataSourceStrategyProvider: DummyProvider
-[13/08/20 16:03:52:821 GMT]  WARN db.DataSourceStrategyProvider: java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-[13/08/20 16:03:52:821 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
-[13/08/20 16:03:52:909 GMT]  INFO h22.H22Cache: Initing H22 cache db:0
-[13/08/20 16:03:52:909 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:0
-[13/08/20 16:03:52:910 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/0/2020-08-13_16-03-52/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
-[13/08/20 16:03:52:921 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Starting...
-[13/08/20 16:03:53:235 GMT]  INFO pool.PoolBase: HikariPool-1 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
-[13/08/20 16:03:53:239 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Start completed.
-[13/08/20 16:03:53:284 GMT]  INFO h22.H22Cache: Initing H22 cache db:1
-[13/08/20 16:03:53:285 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:1
-[13/08/20 16:03:53:288 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/1/2020-08-13_16-03-53/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
-[13/08/20 16:03:53:288 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Starting...
-[13/08/20 16:03:53:329 GMT]  INFO pool.PoolBase: HikariPool-2 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
-[13/08/20 16:03:53:334 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Start completed.
-[13/08/20 16:03:53:861 GMT]  INFO h22.H22Cache: Flushing H22 cache group:testgroup |  Note: this can be an expensive operation
-[13/08/20 16:03:59:871 GMT]  INFO h22.H22Cache: Flushing H22 cache group:testgroup2 |  Note: this can be an expensive operation
-[13/08/20 16:04:05:880 GMT]  INFO h22.H22Cache: Flushing H22 cache group:mybiggroup |  Note: this can be an expensive operation
-[13/08/20 16:04:24:433 GMT]  INFO h22.H22CacheTest: Number of groups: 100
-[13/08/20 16:04:24:435 GMT]  INFO h22.H22Cache: Flushing H22 cache group:group_1 |  Note: this can be an expensive operation
-[13/08/20 16:04:24:442 GMT]  INFO h22.H22Cache: Flushing H22 cache group:thifsais-as-disadisaidsadiias-dsaidisadisaid |  Note: this can be an expensive operation
-[13/08/20 16:04:24:444 GMT]  WARN h22.H22Cache: Error #0 com.dotmarketing.business.cache.provider.h22.H22CacheTest$CantCacheMeObject cannot be cast to java.io.Serializable on thifsais-as-disadisaidsadiias-dsaidisadisaid | cantcacheme
+[13/08/20 17:05:00:047 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.Trying to load datasource from context.xml ...
+[13/08/20 17:05:00:047 GMT]  WARN db.DataSourceStrategyProvider: Failed to initialize pool: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+[13/08/20 17:05:00:047 GMT]  WARN db.DataSourceStrategyProvider: com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:589)
+[13/08/20 17:05:00:047 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:049 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: Unable to find any secrets under [/run/secrets/]Trying to load datasource from context.xml ...
+[13/08/20 17:05:00:049 GMT]  WARN db.DataSourceStrategyProvider: Unable to find any secrets under [/run/secrets/]
+[13/08/20 17:05:00:049 GMT]  WARN db.DataSourceStrategyProvider: com.dotmarketing.db.DockerSecretsUtil.load(DockerSecretsUtil.java:77)
+[13/08/20 17:05:00:049 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:050 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:058 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: DummyProviderTrying to load datasource from context.xml ...
+[13/08/20 17:05:00:058 GMT]  WARN db.DataSourceStrategyProvider: DummyProvider
+[13/08/20 17:05:00:058 GMT]  WARN db.DataSourceStrategyProvider: java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+[13/08/20 17:05:00:058 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:060 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from db.properties file
+[13/08/20 17:05:00:060 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from system environment
+[13/08/20 17:05:00:062 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from Docker Secret
+[13/08/20 17:05:00:063 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:064 GMT]  WARN db.DataSourceStrategyProvider: Error initializing datasource. Reason: DummyProviderTrying to load datasource from context.xml ...
+[13/08/20 17:05:00:064 GMT]  WARN db.DataSourceStrategyProvider: DummyProvider
+[13/08/20 17:05:00:064 GMT]  WARN db.DataSourceStrategyProvider: java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+[13/08/20 17:05:00:064 GMT]  INFO db.DataSourceStrategyProvider: Datasource loaded from context.xml
+[13/08/20 17:05:00:165 GMT]  INFO h22.H22Cache: Initing H22 cache db:0
+[13/08/20 17:05:00:165 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:0
+[13/08/20 17:05:00:166 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/0/2020-08-13_17-05-00/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
+[13/08/20 17:05:00:166 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Starting...
+[13/08/20 17:05:00:426 GMT]  INFO pool.PoolBase: HikariPool-1 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
+[13/08/20 17:05:00:431 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Start completed.
+[13/08/20 17:05:00:468 GMT]  INFO h22.H22Cache: Initing H22 cache db:1
+[13/08/20 17:05:00:468 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:1
+[13/08/20 17:05:00:468 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/1/2020-08-13_17-05-00/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
+[13/08/20 17:05:00:468 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Starting...
+[13/08/20 17:05:00:509 GMT]  INFO pool.PoolBase: HikariPool-2 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
+[13/08/20 17:05:00:513 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Start completed.
+[13/08/20 17:05:01:037 GMT]  INFO h22.H22Cache: Flushing H22 cache group:testgroup |  Note: this can be an expensive operation
+[13/08/20 17:05:07:048 GMT]  INFO h22.H22Cache: Flushing H22 cache group:testgroup2 |  Note: this can be an expensive operation
+[13/08/20 17:05:13:058 GMT]  INFO h22.H22Cache: Flushing H22 cache group:mybiggroup |  Note: this can be an expensive operation
+[13/08/20 17:05:31:615 GMT]  INFO h22.H22CacheTest: Number of groups: 100
+[13/08/20 17:05:31:620 GMT]  INFO h22.H22Cache: Flushing H22 cache group:group_1 |  Note: this can be an expensive operation
+[13/08/20 17:05:32:129 GMT]  INFO h22.H22Cache: Flushing H22 cache group:thifsais-as-disadisaidsadiias-dsaidisadisaid |  Note: this can be an expensive operation
+[13/08/20 17:05:32:131 GMT]  WARN h22.H22Cache: Error #0 com.dotmarketing.business.cache.provider.h22.H22CacheTest$CantCacheMeObject cannot be cast to java.io.Serializable on thifsais-as-disadisaidsadiias-dsaidisadisaid | cantcacheme
 java.lang.ClassCastException: com.dotmarketing.business.cache.provider.h22.H22CacheTest$CantCacheMeObject cannot be cast to java.io.Serializable
 	at com.dotmarketing.business.cache.provider.h22.H22Cache.lambda$0(H22Cache.java:158) ~[main/:?]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_212]
@@ -4930,24 +4930,24 @@ java.lang.ClassCastException: com.dotmarketing.business.cache.provider.h22.H22Ca
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:29:951 GMT]  INFO h22.H22Cache: Start Full Cache Flush in h22
-[13/08/20 16:04:29:951 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:0
-[13/08/20 16:04:29:951 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/0/2020-08-13_16-04-29/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
-[13/08/20 16:04:29:951 GMT]  INFO hikari.HikariDataSource: HikariPool-3 - Starting...
-[13/08/20 16:04:29:988 GMT]  INFO pool.PoolBase: HikariPool-3 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
-[13/08/20 16:04:29:988 GMT]  INFO hikari.HikariDataSource: HikariPool-3 - Start completed.
-[13/08/20 16:04:29:992 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
-[13/08/20 16:04:30:045 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
-[13/08/20 16:04:30:046 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:1
-[13/08/20 16:04:30:046 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/1/2020-08-13_16-04-30/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
-[13/08/20 16:04:30:046 GMT]  INFO hikari.HikariDataSource: HikariPool-4 - Starting...
-[13/08/20 16:04:30:090 GMT]  INFO pool.PoolBase: HikariPool-4 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
-[13/08/20 16:04:30:103 GMT]  INFO hikari.HikariDataSource: HikariPool-4 - Start completed.
-[13/08/20 16:04:30:114 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Shutdown initiated...
-[13/08/20 16:04:30:154 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Shutdown completed.
-[13/08/20 16:04:30:161 GMT]  INFO h22.H22Cache: End Full Cache Flush in h22 : 209ms
-[13/08/20 16:04:30:258 GMT]  WARN business.FileAssetAPIImpl: ConnectException (every 5000 millis)
-[13/08/20 16:04:30:278 GMT]  WARN rules.RuleComponentDefinition: Unexpected error creating component.
+[13/08/20 17:05:37:636 GMT]  INFO h22.H22Cache: Start Full Cache Flush in h22
+[13/08/20 17:05:37:636 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:0
+[13/08/20 17:05:37:636 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/0/2020-08-13_17-05-37/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
+[13/08/20 17:05:37:637 GMT]  INFO hikari.HikariDataSource: HikariPool-3 - Starting...
+[13/08/20 17:05:37:674 GMT]  INFO pool.PoolBase: HikariPool-3 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
+[13/08/20 17:05:37:674 GMT]  INFO hikari.HikariDataSource: HikariPool-3 - Start completed.
+[13/08/20 17:05:37:681 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[13/08/20 17:05:37:723 GMT]  INFO hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[13/08/20 17:05:37:725 GMT]  INFO h22.H22Cache: Building new H22 Cache, db:1
+[13/08/20 17:05:37:725 GMT]  INFO h22.H22HikariPool: H22 on disk cache:jdbc:h2:/tmp/h2cachetest/1/2020-08-13_17-05-37/cache;MVCC=TRUE;DB_CLOSE_ON_EXIT=FALSE
+[13/08/20 17:05:37:725 GMT]  INFO hikari.HikariDataSource: HikariPool-4 - Starting...
+[13/08/20 17:05:37:757 GMT]  INFO pool.PoolBase: HikariPool-4 - Driver does not support get/set network timeout for connections. (org.h2.jdbc.JdbcConnection.getNetworkTimeout()I)
+[13/08/20 17:05:37:761 GMT]  INFO hikari.HikariDataSource: HikariPool-4 - Start completed.
+[13/08/20 17:05:37:768 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Shutdown initiated...
+[13/08/20 17:05:37:795 GMT]  INFO hikari.HikariDataSource: HikariPool-2 - Shutdown completed.
+[13/08/20 17:05:37:797 GMT]  INFO h22.H22Cache: End Full Cache Flush in h22 : 160ms
+[13/08/20 17:05:37:894 GMT]  WARN business.FileAssetAPIImpl: ConnectException (every 5000 millis)
+[13/08/20 17:05:37:912 GMT]  WARN rules.RuleComponentDefinition: Unexpected error creating component.
 java.lang.IllegalArgumentException: SetRequestAttributeActionlet requires valid key.
 	at com.dotcms.repackage.com.google.common.base.Preconditions.checkArgument(Preconditions.java:88) ~[dot.guava-11.0.1_2.jar:?]
 	at com.dotmarketing.portlets.rules.actionlet.SetRequestAttributeActionlet$Instance.<init>(SetRequestAttributeActionlet.java:55) ~[main/:?]
@@ -5001,7 +5001,7 @@ java.lang.IllegalArgumentException: SetRequestAttributeActionlet requires valid 
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:30:281 GMT]  WARN rules.RuleComponentDefinition: Unexpected error creating component.
+[13/08/20 17:05:37:920 GMT]  WARN rules.RuleComponentDefinition: Unexpected error creating component.
 java.lang.IllegalArgumentException: SetRequestAttributeActionlet requires valid key.
 	at com.dotcms.repackage.com.google.common.base.Preconditions.checkArgument(Preconditions.java:88) ~[dot.guava-11.0.1_2.jar:?]
 	at com.dotmarketing.portlets.rules.actionlet.SetRequestAttributeActionlet$Instance.<init>(SetRequestAttributeActionlet.java:55) ~[main/:?]
@@ -5055,12 +5055,12 @@ java.lang.IllegalArgumentException: SetRequestAttributeActionlet requires valid 
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:30:311 GMT]  WARN actionlet.PersonaActionlet: No visitor was available on which to set a persona. Could not execute action.
-[13/08/20 16:04:30:313 GMT]  WARN actionlet.PersonaActionlet: Persona with id 'x--2012325212Nope' not be found. Could not execute action.
-[13/08/20 16:04:30:563 GMT] ERROR conditionlet.UsersCountryConditionlet: Could not look up country for request. Using 'unknown': null
-[13/08/20 16:04:31:320 GMT]  WARN util.LocaleUtil: null is not a valid language id
-[13/08/20 16:04:31:323 GMT]  WARN util.LocaleUtil: null is not a valid language id
-[13/08/20 16:04:31:337 GMT] ERROR util.XMLUtils: XML document structures must start and end within the same entity.
+[13/08/20 17:05:37:956 GMT]  WARN actionlet.PersonaActionlet: No visitor was available on which to set a persona. Could not execute action.
+[13/08/20 17:05:37:956 GMT]  WARN actionlet.PersonaActionlet: Persona with id 'x--1512880316Nope' not be found. Could not execute action.
+[13/08/20 17:05:38:176 GMT] ERROR conditionlet.UsersCountryConditionlet: Could not look up country for request. Using 'unknown': null
+[13/08/20 17:05:38:851 GMT]  WARN util.LocaleUtil: null is not a valid language id
+[13/08/20 17:05:38:854 GMT]  WARN util.LocaleUtil: null is not a valid language id
+[13/08/20 17:05:38:873 GMT] ERROR util.XMLUtils: XML document structures must start and end within the same entity.
 org.xml.sax.SAXParseException: XML document structures must start and end within the same entity.
 	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:?]
 	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.11.0.jar:?]
@@ -5110,13 +5110,13 @@ org.xml.sax.SAXParseException: XML document structures must start and end within
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:31:375 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "12-20-2005 05:37"
-[13/08/20 16:04:31:376 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "12-20-2005"
-[13/08/20 16:04:31:391 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "051015"
-[13/08/20 16:04:31:402 GMT]  WARN util.DateUtil: java.lang.NullPointerException
-[13/08/20 16:04:31:405 GMT]  WARN util.DateUtil: java.lang.NullPointerException
-[13/08/20 16:04:31:405 GMT]  WARN util.DateUtil: java.lang.NullPointerException
-[13/08/20 16:04:32:407 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : xxx like %crack% xxx
+[13/08/20 17:05:38:915 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "12-20-2005 05:37"
+[13/08/20 17:05:38:919 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "12-20-2005"
+[13/08/20 17:05:38:933 GMT] ERROR business.ESContentFactoryImpl: java.text.ParseException: Unparseable date: "051015"
+[13/08/20 17:05:38:939 GMT]  WARN util.DateUtil: java.lang.NullPointerException
+[13/08/20 17:05:38:939 GMT]  WARN util.DateUtil: java.lang.NullPointerException
+[13/08/20 17:05:38:939 GMT]  WARN util.DateUtil: java.lang.NullPointerException
+[13/08/20 17:05:39:664 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : xxx like %crack% xxx
 com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter passed in : xxx like %crack% xxx
 	at com.dotmarketing.common.util.SQLUtil.sanitizeSQL(SQLUtil.java:299) ~[main/:?]
 	at com.dotmarketing.common.util.SQLUtil.sanitizeParameter(SQLUtil.java:254) ~[main/:?]
@@ -5167,7 +5167,7 @@ com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:32:417 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : select 
+[13/08/20 17:05:39:678 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : select 
 com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter passed in : select 
 	at com.dotmarketing.common.util.SQLUtil.sanitizeSQL(SQLUtil.java:299) ~[main/:?]
 	at com.dotmarketing.common.util.SQLUtil.sanitizeParameter(SQLUtil.java:254) ~[main/:?]
@@ -5218,7 +5218,7 @@ com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:32:417 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : xxx delete xxx
+[13/08/20 17:05:39:678 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : xxx delete xxx
 com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter passed in : xxx delete xxx
 	at com.dotmarketing.common.util.SQLUtil.sanitizeSQL(SQLUtil.java:299) ~[main/:?]
 	at com.dotmarketing.common.util.SQLUtil.sanitizeParameter(SQLUtil.java:254) ~[main/:?]
@@ -5269,7 +5269,7 @@ com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[13/08/20 16:04:32:417 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : q='') or 1=1
+[13/08/20 17:05:39:678 GMT] ERROR util.SQLUtil: Invalid or pernicious sql parameter passed in : q='') or 1=1
 com.dotmarketing.business.DotStateException: Invalid or pernicious sql parameter passed in : q='') or 1=1
 	at com.dotmarketing.common.util.SQLUtil.sanitizeSQL(SQLUtil.java:299) ~[main/:?]
 	at com.dotmarketing.common.util.SQLUtil.sanitizeParameter(SQLUtil.java:254) ~[main/:?]

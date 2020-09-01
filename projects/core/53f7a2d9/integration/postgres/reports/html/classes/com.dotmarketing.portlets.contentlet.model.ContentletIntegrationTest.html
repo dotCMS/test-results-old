@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">48.936s</div>
+<div class="counter">50.012s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">93%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,10 +61,104 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2d0d793d]"></a>
+<h3 class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2d0d793d]</h3>
+<span class="code">
+<pre>com.dotmarketing.exception.DotHibernateException: Unable to close Hibernate Session 
+	at com.dotmarketing.db.HibernateUtil.commitTransaction(HibernateUtil.java:1158)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:62)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotcms.contenttype.business.ContentTypeAPIImpl.delete(ContentTypeAPIImpl.java:81)
+	at com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest.testSetRelatedForSelfRelationship(ContentletIntegrationTest.java:423)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at com.tngtech.java.junit.dataprovider.DataProviderFrameworkMethod.invokeExplosively(DataProviderFrameworkMethod.java:119)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.dotmarketing.business.DotStateException: Based on configured schedule, the given trigger will never fire.
+	at com.dotmarketing.db.DotRunnableThread.run(DotRunnableThread.java:56)
+	at com.dotmarketing.db.HibernateUtil.finalizeCommitListeners(HibernateUtil.java:1068)
+	at com.dotmarketing.db.HibernateUtil.commitTransaction(HibernateUtil.java:1152)
+	... 63 more
+Caused by: org.quartz.SchedulerException: Based on configured schedule, the given trigger will never fire.
+	at org.quartz.core.QuartzScheduler.rescheduleJob(QuartzScheduler.java:1011)
+	at org.quartz.impl.StdScheduler.rescheduleJob(StdScheduler.java:302)
+	at com.dotmarketing.quartz.QuartzUtils.scheduleTask(QuartzUtils.java:485)
+	at com.dotmarketing.quartz.DotStatefulJob.enqueueTrigger(DotStatefulJob.java:170)
+	at com.dotmarketing.quartz.job.CleanUpFieldReferencesJob.lambda$0(CleanUpFieldReferencesJob.java:124)
+	at com.rainerhahnekamp.sneakythrow.Sneaky.lambda$sneaked$7(Sneaky.java:207)
+	at com.dotmarketing.db.DotRunnableThread.internalRunner(DotRunnableThread.java:99)
+	at com.dotmarketing.db.LocalTransaction.wrap(LocalTransaction.java:158)
+	at com.dotmarketing.db.DotRunnableThread.run(DotRunnableThread.java:53)
+	... 65 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -76,77 +170,77 @@
 </thead>
 <tr>
 <td class="success">testGetContentTypeAlwaysReturnsTheLatestCachedVersion</td>
-<td>0.163s</td>
+<td>0.156s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationship</td>
-<td>1.038s</td>
+<td>0.964s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedForOneSidedRelationshipWhenLimitedUserShouldReturnEmptyList</td>
-<td>2.823s</td>
+<td>2.816s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenInvalidVarFieldShouldThrowAnException</td>
-<td>0.143s</td>
+<td>0.175s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetRelatedWhenNoRelatedContentShouldReturnEmptyList</td>
-<td>0.318s</td>
+<td>0.354s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@6adbca8c]</td>
-<td>3.122s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@14e3985]</td>
+<td>3.488s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4617e29e]</td>
-<td>3.069s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2d0d793d]</td>
+<td>2.922s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@59a7ba76]</td>
-<td>3.070s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2411c504]</td>
+<td>2.987s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@1c323945]</td>
-<td>3.125s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@3dc25ebb]</td>
+<td>3.026s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@28890fe5]</td>
-<td>0.326s</td>
+<td class="success">testSetRelatedForOneSidedRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4d30ca97]</td>
+<td>0.350s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@6adbca8c]</td>
-<td>7.593s</td>
+<td class="success">testSetRelatedForSelfRelationship[0: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@14e3985]</td>
+<td>7.453s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4617e29e]</td>
-<td>8.005s</td>
+<td class="failures">testSetRelatedForSelfRelationship[1: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2d0d793d]</td>
+<td>8.152s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@2411c504]</td>
+<td>8.420s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[2: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@59a7ba76]</td>
-<td>7.362s</td>
+<td class="success">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@3dc25ebb]</td>
+<td>8.097s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSetRelatedForSelfRelationship[3: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@1c323945]</td>
-<td>8.214s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@28890fe5]</td>
-<td>0.565s</td>
+<td class="success">testSetRelatedForSelfRelationship[4: com.dotmarketing.portlets.contentlet.model.ContentletIntegrationTest$SetRelatedTestCase@4d30ca97]</td>
+<td>0.652s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -159,7 +253,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Aug 31, 2020 11:52:13 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Sep 1, 2020 10:41:18 PM</p>
 </div>
 </div>
 </body>

@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">5</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">53.747s</div>
+<div class="counter">52.344s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">80%</div>
+<div class="percent">50%</div>
 <p>successful</p>
 </div>
 </td>
@@ -70,25 +70,25 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@66182d75]"></a>
-<h3 class="failures">testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@66182d75]</h3>
+<a name="testSiteSearchDifferentScenarios[0: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@211c4dc3]"></a>
+<h3 class="failures">testSiteSearchDifferentScenarios[0: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@211c4dc3]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'ef544a62-053a-44e9-a819-1b9d9f20e690-1' for key 'unique_workflow_task'{
+<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'b9390dff-366e-4eac-b3cc-632225504d18-1' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;4ba6ae43-7dfd-4c56-a126-cd95192c6436&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
+    &quot;8bdf9105-54d7-4455-933f-ffb710dc351f&quot;,
+    &quot;2020-09-11 22:24:11.026&quot;,
+    &quot;2020-09-11 22:24:11.027&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     1
   ]
 }
@@ -172,22 +172,22 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'ef544a62-053a-44e9-a819-1b9d9f20e690-1' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'b9390dff-366e-4eac-b3cc-632225504d18-1' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;4ba6ae43-7dfd-4c56-a126-cd95192c6436&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
+    &quot;8bdf9105-54d7-4455-933f-ffb710dc351f&quot;,
+    &quot;2020-09-11 22:24:11.026&quot;,
+    &quot;2020-09-11 22:24:11.027&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     1
   ]
 }
@@ -203,22 +203,22 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'ef54
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4374)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
 	... 78 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry 'ef544a62-053a-44e9-a819-1b9d9f20e690-1' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry 'b9390dff-366e-4eac-b3cc-632225504d18-1' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;4ba6ae43-7dfd-4c56-a126-cd95192c6436&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
+    &quot;8bdf9105-54d7-4455-933f-ffb710dc351f&quot;,
+    &quot;2020-09-11 22:24:11.026&quot;,
+    &quot;2020-09-11 22:24:11.027&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     1
   ]
 }
@@ -233,22 +233,22 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Du
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3015)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 88 more
-Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry 'ef544a62-053a-44e9-a819-1b9d9f20e690-1' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry 'b9390dff-366e-4eac-b3cc-632225504d18-1' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;4ba6ae43-7dfd-4c56-a126-cd95192c6436&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
-    &quot;2020-09-11 16:51:49.845&quot;,
+    &quot;8bdf9105-54d7-4455-933f-ffb710dc351f&quot;,
+    &quot;2020-09-11 22:24:11.026&quot;,
+    &quot;2020-09-11 22:24:11.027&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;ef544a62-053a-44e9-a819-1b9d9f20e690&quot;,
+    &quot;b9390dff-366e-4eac-b3cc-632225504d18&quot;,
     1
   ]
 }
@@ -267,7 +267,7 @@ Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry 'ef544a6
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTask(WorkflowAPIImpl.java:2403)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2330)
 	... 97 more
-Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'ef544a62-053a-44e9-a819-1b9d9f20e690-1' for key 'unique_workflow_task'
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'b9390dff-366e-4eac-b3cc-632225504d18-1' for key 'unique_workflow_task'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -283,26 +283,452 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'e
 </span>
 </div>
 <div class="test">
-<a name="testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@28ce9219]"></a>
-<h3 class="failures">testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@28ce9219]</h3>
+<a name="testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@2ed70da]"></a>
+<h3 class="failures">testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@2ed70da]</h3>
 <span class="code">
-<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8-1599843117994' for key 'unique_workflow_task'{
+<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry '703928d7-68eb-4ac6-bddb-1050da123089-1' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;627d7387-7d39-4227-aff7-efdda46851c8&quot;,
-    &quot;2020-09-11 16:52:01.152&quot;,
-    &quot;2020-09-11 16:52:01.153&quot;,
+    &quot;154d4ff4-af53-4a26-bc40-9339cbeb8236&quot;,
+    &quot;2020-09-11 22:24:15.746&quot;,
+    &quot;2020-09-11 22:24:15.747&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
-    1599843117994
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    1
+  ]
+}
+	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4177)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4128)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:8291)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody134(ESContentletAPIImpl.java:4039)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure135.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotcms.aspects.interceptors.CloseDBIfOpenedMethodInterceptor.invoke(CloseDBIfOpenedMethodInterceptor.java:29)
+	at com.dotcms.aspects.aspectj.CloseDBIfOpenedAspect.invoke(CloseDBIfOpenedAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4034)
+	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.checkin(ContentletAPIInterceptor.java:258)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.createAndPublishEmployeeContent(SiteSearchJobImplTest.java:788)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.testSiteSearchDifferentScenarios(SiteSearchJobImplTest.java:642)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at com.tngtech.java.junit.dataprovider.DataProviderFrameworkMethod.invokeExplosively(DataProviderFrameworkMethod.java:119)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry '703928d7-68eb-4ac6-bddb-1050da123089-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;154d4ff4-af53-4a26-bc40-9339cbeb8236&quot;,
+    &quot;2020-09-11 22:24:15.746&quot;,
+    &quot;2020-09-11 22:24:15.747&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    1
+  ]
+}
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3015)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow(WorkflowAPIImpl.java:2992)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4374)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
+	... 78 more
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry '703928d7-68eb-4ac6-bddb-1050da123089-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;154d4ff4-af53-4a26-bc40-9339cbeb8236&quot;,
+    &quot;2020-09-11 22:24:15.746&quot;,
+    &quot;2020-09-11 22:24:15.747&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    1
+  ]
+}
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2347)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin(WorkflowAPIImpl.java:2298)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3015)
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
+	... 88 more
+Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry '703928d7-68eb-4ac6-bddb-1050da123089-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;154d4ff4-af53-4a26-bc40-9339cbeb8236&quot;,
+    &quot;2020-09-11 22:24:15.746&quot;,
+    &quot;2020-09-11 22:24:15.747&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;703928d7-68eb-4ac6-bddb-1050da123089&quot;,
+    1
+  ]
+}
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:273)
+	at com.dotmarketing.portlets.workflows.business.WorkflowFactoryImpl.saveWorkflowTask(WorkflowFactoryImpl.java:2232)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2429)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskInternal(WorkflowAPIImpl.java:1388)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing_aroundBody168(WorkflowAPIImpl.java:2439)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure169.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2437)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTask(WorkflowAPIImpl.java:2403)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2330)
+	... 97 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '703928d7-68eb-4ac6-bddb-1050da123089-1' for key 'unique_workflow_task'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:619)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:532)
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:271)
+	... 110 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testSiteSearchDifferentScenarios[2: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26d3eaf5]"></a>
+<h3 class="failures">testSiteSearchDifferentScenarios[2: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26d3eaf5]</h3>
+<span class="code">
+<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry '435472b5-8966-4996-b898-1173d085671e-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;ddc3e186-1ebf-4afb-acd7-71fc95c401ab&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    1
+  ]
+}
+	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4177)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4128)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:8291)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody134(ESContentletAPIImpl.java:4039)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure135.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotcms.aspects.interceptors.CloseDBIfOpenedMethodInterceptor.invoke(CloseDBIfOpenedMethodInterceptor.java:29)
+	at com.dotcms.aspects.aspectj.CloseDBIfOpenedAspect.invoke(CloseDBIfOpenedAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4034)
+	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.checkin(ContentletAPIInterceptor.java:258)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.createAndPublishEmployeeContent(SiteSearchJobImplTest.java:788)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.testSiteSearchDifferentScenarios(SiteSearchJobImplTest.java:642)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at com.tngtech.java.junit.dataprovider.DataProviderFrameworkMethod.invokeExplosively(DataProviderFrameworkMethod.java:119)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry '435472b5-8966-4996-b898-1173d085671e-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;ddc3e186-1ebf-4afb-acd7-71fc95c401ab&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    1
+  ]
+}
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3015)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow(WorkflowAPIImpl.java:2992)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4374)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
+	... 78 more
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry '435472b5-8966-4996-b898-1173d085671e-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;ddc3e186-1ebf-4afb-acd7-71fc95c401ab&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    1
+  ]
+}
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2347)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin(WorkflowAPIImpl.java:2298)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3015)
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
+	... 88 more
+Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry '435472b5-8966-4996-b898-1173d085671e-1' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;ddc3e186-1ebf-4afb-acd7-71fc95c401ab&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    &quot;2020-09-11 22:24:19.94&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;435472b5-8966-4996-b898-1173d085671e&quot;,
+    1
+  ]
+}
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:273)
+	at com.dotmarketing.portlets.workflows.business.WorkflowFactoryImpl.saveWorkflowTask(WorkflowFactoryImpl.java:2232)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2429)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskInternal(WorkflowAPIImpl.java:1388)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing_aroundBody168(WorkflowAPIImpl.java:2439)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure169.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2437)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTask(WorkflowAPIImpl.java:2403)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2330)
+	... 97 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '435472b5-8966-4996-b898-1173d085671e-1' for key 'unique_workflow_task'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:619)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:532)
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:271)
+	... 110 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@651825c5]"></a>
+<h3 class="failures">testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@651825c5]</h3>
+<span class="code">
+<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry '05658b37-c6e0-4fe1-b5fa-c2a123993a0f-1599863061410' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;89440cdb-60dc-43a8-a881-d2a650db92f3&quot;,
+    &quot;2020-09-11 22:24:25.57&quot;,
+    &quot;2020-09-11 22:24:25.571&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
+    1599863061410
   ]
 }
 	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
@@ -385,23 +811,23 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'e
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8-1599843117994' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry '05658b37-c6e0-4fe1-b5fa-c2a123993a0f-1599863061410' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;627d7387-7d39-4227-aff7-efdda46851c8&quot;,
-    &quot;2020-09-11 16:52:01.152&quot;,
-    &quot;2020-09-11 16:52:01.153&quot;,
+    &quot;89440cdb-60dc-43a8-a881-d2a650db92f3&quot;,
+    &quot;2020-09-11 22:24:25.57&quot;,
+    &quot;2020-09-11 22:24:25.571&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
-    1599843117994
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
+    1599863061410
   ]
 }
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
@@ -416,23 +842,23 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry 'a898
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4374)
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
 	... 78 more
-Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry 'a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8-1599843117994' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry '05658b37-c6e0-4fe1-b5fa-c2a123993a0f-1599863061410' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;627d7387-7d39-4227-aff7-efdda46851c8&quot;,
-    &quot;2020-09-11 16:52:01.152&quot;,
-    &quot;2020-09-11 16:52:01.153&quot;,
+    &quot;89440cdb-60dc-43a8-a881-d2a650db92f3&quot;,
+    &quot;2020-09-11 22:24:25.57&quot;,
+    &quot;2020-09-11 22:24:25.571&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
-    1599843117994
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
+    1599863061410
   ]
 }
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2347)
@@ -446,23 +872,23 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Du
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3015)
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 88 more
-Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry 'a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8-1599843117994' for key 'unique_workflow_task'{
+Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry '05658b37-c6e0-4fe1-b5fa-c2a123993a0f-1599863061410' for key 'unique_workflow_task'{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;627d7387-7d39-4227-aff7-efdda46851c8&quot;,
-    &quot;2020-09-11 16:52:01.152&quot;,
-    &quot;2020-09-11 16:52:01.153&quot;,
+    &quot;89440cdb-60dc-43a8-a881-d2a650db92f3&quot;,
+    &quot;2020-09-11 22:24:25.57&quot;,
+    &quot;2020-09-11 22:24:25.571&quot;,
     null,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
     null,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8&quot;,
-    1599843117994
+    &quot;05658b37-c6e0-4fe1-b5fa-c2a123993a0f&quot;,
+    1599863061410
   ]
 }
 	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:273)
@@ -480,7 +906,220 @@ Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry 'a898e6b
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTask(WorkflowAPIImpl.java:2403)
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2330)
 	... 97 more
-Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a898e6b2-4f8e-4547-bb25-1bdaff5bb8d8-1599843117994' for key 'unique_workflow_task'
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '05658b37-c6e0-4fe1-b5fa-c2a123993a0f-1599863061410' for key 'unique_workflow_task'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:619)
+	at com.dotmarketing.common.db.DotConnect.executeQuery(DotConnect.java:532)
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:271)
+	... 110 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testSiteSearchDifferentScenarios[4: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26290ef0]"></a>
+<h3 class="failures">testSiteSearchDifferentScenarios[4: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26290ef0]</h3>
+<span class="code">
+<pre>com.dotmarketing.exception.DotRuntimeException: Duplicate entry '48d42aa5-ca47-4467-b554-7bb3db44c367-1599863066458' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;7980b983-c21d-4d11-ab5f-cc89de83cd0e&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    1599863066458
+  ]
+}
+	at com.dotcms.exception.ExceptionUtil.bubbleUpException(ExceptionUtil.java:165)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4177)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure145.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4128)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:8291)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody134(ESContentletAPIImpl.java:4039)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl$AjcClosure135.run(ESContentletAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotcms.aspects.interceptors.CloseDBIfOpenedMethodInterceptor.invoke(CloseDBIfOpenedMethodInterceptor.java:29)
+	at com.dotcms.aspects.aspectj.CloseDBIfOpenedAspect.invoke(CloseDBIfOpenedAspect.java:41)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin(ESContentletAPIImpl.java:4034)
+	at com.dotmarketing.portlets.contentlet.business.ContentletAPIInterceptor.checkin(ContentletAPIInterceptor.java:258)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.createAndPublishEmployeeContent(SiteSearchJobImplTest.java:788)
+	at com.dotcms.publishing.job.SiteSearchJobImplTest.testSiteSearchDifferentScenarios(SiteSearchJobImplTest.java:649)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at com.tngtech.java.junit.dataprovider.DataProviderFrameworkMethod.invokeExplosively(DataProviderFrameworkMethod.java:119)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:28)
+	at com.dotcms.junit.CustomDataProviderRunner.runChild(CustomDataProviderRunner.java:13)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.dotmarketing.exception.DotRuntimeException: Duplicate entry '48d42aa5-ca47-4467-b554-7bb3db44c367-1599863066458' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;7980b983-c21d-4d11-ab5f-cc89de83cd0e&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    1599863066458
+  ]
+}
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:88)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow_aroundBody180(WorkflowAPIImpl.java:3015)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure181.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireContentWorkflow(WorkflowAPIImpl.java:2992)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.validateWorkflowStateOrRunAsWorkflow(ESContentletAPIImpl.java:4374)
+	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
+	... 78 more
+Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: Duplicate entry '48d42aa5-ca47-4467-b554-7bb3db44c367-1599863066458' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;7980b983-c21d-4d11-ab5f-cc89de83cd0e&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    1599863066458
+  ]
+}
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2347)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure167.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin(WorkflowAPIImpl.java:2298)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.lambda$64(WorkflowAPIImpl.java:3015)
+	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
+	... 88 more
+Caused by: com.dotmarketing.exception.DotDataException: Duplicate entry '48d42aa5-ca47-4467-b554-7bb3db44c367-1599863066458' for key 'unique_workflow_task'{
+  &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
+  &quot;maxRows&quot;: [-1],
+  &quot;offest&quot;: [0],
+  &quot;params&quot;: [
+    &quot;7980b983-c21d-4d11-ab5f-cc89de83cd0e&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    &quot;2020-09-11 22:24:30.25&quot;,
+    null,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    &quot;2adccac3-a56b-4078-be40-94e343f20712&quot;,
+    null,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    null,
+    &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
+    &quot;48d42aa5-ca47-4467-b554-7bb3db44c367&quot;,
+    1599863066458
+  ]
+}
+	at com.dotmarketing.common.db.DotConnect.loadResult(DotConnect.java:273)
+	at com.dotmarketing.portlets.workflows.business.WorkflowFactoryImpl.saveWorkflowTask(WorkflowFactoryImpl.java:2232)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2429)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskInternal(WorkflowAPIImpl.java:1388)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing_aroundBody168(WorkflowAPIImpl.java:2439)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl$AjcClosure169.run(WorkflowAPIImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.dotcms.aspects.aspectj.AspectJDelegateMethodInvocation.proceed(AspectJDelegateMethodInvocation.java:42)
+	at com.dotmarketing.db.LocalTransaction.wrapReturnWithListeners(LocalTransaction.java:59)
+	at com.dotcms.aspects.interceptors.WrapInTransactionMethodInterceptor.invoke(WrapInTransactionMethodInterceptor.java:23)
+	at com.dotcms.aspects.aspectj.WrapInTransactionAspect.invoke(WrapInTransactionAspect.java:41)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTaskWithoutIndexing(WorkflowAPIImpl.java:2437)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.saveWorkflowTask(WorkflowAPIImpl.java:2403)
+	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2330)
+	... 97 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '48d42aa5-ca47-4467-b554-7bb3db44c367-1599863066458' for key 'unique_workflow_task'
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
@@ -508,52 +1147,52 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a
 </thead>
 <tr>
 <td class="success">Test_Incremental_Job_Test_Pages_Are_Found_Create_And_Publish_New_Page_Test_Changes_Are_Picked_Unpublish_Then_Verify_Page_Is_Gone</td>
-<td>11.332s</td>
+<td>11.278s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Test_Non_Incremental_Create_Default_Index_Create_Second_Index_Run_Non_Incrementally_Expect_Non_Default_New_Index</td>
-<td>1.387s</td>
+<td>1.488s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Test_Non_Incremental_Create_Default_Index_Run_Non_Incrementally_Expect_New_Index_Keep_Alias_And_Default</td>
-<td>0.604s</td>
+<td>0.567s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSiteSearchDifferentScenarios[0: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@57bc5e38]</td>
-<td>6.961s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="failures">testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@66182d75]</td>
-<td>4.313s</td>
+<td class="failures">testSiteSearchDifferentScenarios[0: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@211c4dc3]</td>
+<td>4.709s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">testSiteSearchDifferentScenarios[2: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@17acfda6]</td>
-<td>6.814s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="failures">testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@28ce9219]</td>
-<td>4.501s</td>
+<td class="failures">testSiteSearchDifferentScenarios[1: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@2ed70da]</td>
+<td>4.690s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">testSiteSearchDifferentScenarios[4: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@1db654a6]</td>
-<td>5.462s</td>
+<td class="failures">testSiteSearchDifferentScenarios[2: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26d3eaf5]</td>
+<td>4.224s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSiteSearchDifferentScenarios[3: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@651825c5]</td>
+<td>5.634s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">testSiteSearchDifferentScenarios[4: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@26290ef0]</td>
+<td>4.644s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testSiteSearchDifferentScenarios[5: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@4fabc14f]</td>
+<td>8.085s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testSiteSearchDifferentScenarios[5: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@3a62b1e0]</td>
-<td>6.241s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testSiteSearchDifferentScenarios[6: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@4ad33ac7]</td>
-<td>6.132s</td>
+<td class="success">testSiteSearchDifferentScenarios[6: com.dotcms.publishing.job.SiteSearchJobImplTest$TestCaseSiteSearch@76961e0d]</td>
+<td>7.025s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -566,7 +1205,7 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Sep 11, 2020 5:30:33 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Sep 11, 2020 11:02:53 PM</p>
 </div>
 </div>
 </body>

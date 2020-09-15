@@ -8,7 +8,7 @@ Since this repo might be used to keep results from multiple dotCMS repos, branch
 ```
 projects
 └──core
-|  └──<branch>
+|  └──current
 |  |  └──curl
 |  |  |  └──postgres
 |  |  |     └──reports

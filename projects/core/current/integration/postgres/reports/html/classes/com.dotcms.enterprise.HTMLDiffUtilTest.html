@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">6.446s</div>
+<div class="counter">6.360s</div>
 <p>duration</p>
 </div>
 </td>
@@ -74,22 +74,22 @@
 <h3 class="failures">Test_Page_No_Changes_Expect_Nothing_Changed_Message</h3>
 <span class="code">
 <pre>com.dotmarketing.exception.DotRuntimeException: ERROR: duplicate key value violates unique constraint &quot;unique_workflow_task&quot;
-  Detail: Key (webasset, language_id)=(a611bedc-8d32-4341-920c-f4501e7d1eb0, 1) already exists.{
+  Detail: Key (webasset, language_id)=(03c499d6-45b2-4b35-9e66-65956e6131c2, 1) already exists.{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;f2426efd-99b3-489b-ab37-db8f911ca56f&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
+    &quot;623fcdee-aa40-47ec-abbf-ef7c0b2129d3&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
     null,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
     null,
     &quot;seekers-expect-No-difference-page&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a611bedc-8d32-4341-920c-f4501e7d1eb0&quot;,
+    &quot;03c499d6-45b2-4b35-9e66-65956e6131c2&quot;,
     1
   ]
 }
@@ -172,22 +172,22 @@
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: com.dotmarketing.exception.DotRuntimeException: ERROR: duplicate key value violates unique constraint &quot;unique_workflow_task&quot;
-  Detail: Key (webasset, language_id)=(a611bedc-8d32-4341-920c-f4501e7d1eb0, 1) already exists.{
+  Detail: Key (webasset, language_id)=(03c499d6-45b2-4b35-9e66-65956e6131c2, 1) already exists.{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;f2426efd-99b3-489b-ab37-db8f911ca56f&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
+    &quot;623fcdee-aa40-47ec-abbf-ef7c0b2129d3&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
     null,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
     null,
     &quot;seekers-expect-No-difference-page&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a611bedc-8d32-4341-920c-f4501e7d1eb0&quot;,
+    &quot;03c499d6-45b2-4b35-9e66-65956e6131c2&quot;,
     1
   ]
 }
@@ -204,22 +204,22 @@ Caused by: com.dotmarketing.exception.DotRuntimeException: ERROR: duplicate key 
 	at com.dotcms.content.elasticsearch.business.ESContentletAPIImpl.checkin_aroundBody144(ESContentletAPIImpl.java:4158)
 	... 76 more
 Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: ERROR: duplicate key value violates unique constraint &quot;unique_workflow_task&quot;
-  Detail: Key (webasset, language_id)=(a611bedc-8d32-4341-920c-f4501e7d1eb0, 1) already exists.{
+  Detail: Key (webasset, language_id)=(03c499d6-45b2-4b35-9e66-65956e6131c2, 1) already exists.{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;f2426efd-99b3-489b-ab37-db8f911ca56f&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
+    &quot;623fcdee-aa40-47ec-abbf-ef7c0b2129d3&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
     null,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
     null,
     &quot;seekers-expect-No-difference-page&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a611bedc-8d32-4341-920c-f4501e7d1eb0&quot;,
+    &quot;03c499d6-45b2-4b35-9e66-65956e6131c2&quot;,
     1
   ]
 }
@@ -235,22 +235,22 @@ Caused by: com.dotmarketing.portlets.workflows.business.DotWorkflowException: ER
 	at com.dotcms.util.ThreadContextUtil.wrapVoidNoReindex(ThreadContextUtil.java:85)
 	... 86 more
 Caused by: com.dotmarketing.exception.DotDataException: ERROR: duplicate key value violates unique constraint &quot;unique_workflow_task&quot;
-  Detail: Key (webasset, language_id)=(a611bedc-8d32-4341-920c-f4501e7d1eb0, 1) already exists.{
+  Detail: Key (webasset, language_id)=(03c499d6-45b2-4b35-9e66-65956e6131c2, 1) already exists.{
   &quot;SQL&quot;: [&quot;INSERT INTO workflow_task (id, creation_date, mod_date, due_date, created_by, assigned_to, belongs_to, title, description, status, webasset, language_id) values (?,?,?,?,?,?,?,?,?,?,?,?)&quot;],
   &quot;maxRows&quot;: [-1],
   &quot;offest&quot;: [0],
   &quot;params&quot;: [
-    &quot;f2426efd-99b3-489b-ab37-db8f911ca56f&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
-    &quot;2020-09-17 22:58:10.073&quot;,
+    &quot;623fcdee-aa40-47ec-abbf-ef7c0b2129d3&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
+    &quot;2020-09-18 05:54:42.124&quot;,
     null,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
-    &quot;0df8b89c-25bf-4d86-ba02-f467b50834ea&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
+    &quot;878e756a-efbf-4feb-8402-99a6fb9aebf0&quot;,
     null,
     &quot;seekers-expect-No-difference-page&quot;,
     null,
     &quot;ee24a4cb-2d15-4c98-b1bd-6327126451f3&quot;,
-    &quot;a611bedc-8d32-4341-920c-f4501e7d1eb0&quot;,
+    &quot;03c499d6-45b2-4b35-9e66-65956e6131c2&quot;,
     1
   ]
 }
@@ -270,7 +270,7 @@ Caused by: com.dotmarketing.exception.DotDataException: ERROR: duplicate key val
 	at com.dotmarketing.portlets.workflows.business.WorkflowAPIImpl.fireWorkflowPostCheckin_aroundBody166(WorkflowAPIImpl.java:2329)
 	... 95 more
 Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint &quot;unique_workflow_task&quot;
-  Detail: Key (webasset, language_id)=(a611bedc-8d32-4341-920c-f4501e7d1eb0, 1) already exists.
+  Detail: Key (webasset, language_id)=(03c499d6-45b2-4b35-9e66-65956e6131c2, 1) already exists.
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2497)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2233)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:310)
@@ -372,12 +372,12 @@ Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violate
 </thead>
 <tr>
 <td class="failures">Test_Page_No_Changes_Expect_Nothing_Changed_Message</td>
-<td>2.471s</td>
+<td>2.264s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Test_Page_With_Changes_Expect_Difference</td>
-<td>3.975s</td>
+<td>4.096s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -390,7 +390,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violate
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.4.1</a> at Sep 17, 2020 11:33:00 PM</p>
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at Sep 18, 2020 6:29:40 AM</p>
 </div>
 </div>
 </body>

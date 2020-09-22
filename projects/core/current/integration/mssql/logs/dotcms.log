@@ -1,0 +1,14 @@
+[21/09/20 22:04:33:957 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[21/09/20 22:04:33:962 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[21/09/20 22:04:33:986 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system.properties
+[21/09/20 22:04:33:986 GMT]  INFO util.SystemProperties: Loading file:/build/src/core/dotCMS/build/resources/main/system-ext.properties
+[21/09/20 22:04:34:218 GMT]  INFO util.Config: Initializing properties reader.
+[21/09/20 22:04:34:218 GMT]  INFO util.Config: Loading dotCMS [dotmarketing-config.properties] Properties...
+[21/09/20 22:04:34:262 GMT]  INFO util.Config: dotCMS Properties [dotmarketing-config.properties] Loaded
+[21/09/20 22:04:34:294 GMT]  INFO util.Config: Loading dotCMS [dotcms-config-cluster.properties] Properties...
+[21/09/20 22:04:34:295 GMT]  INFO util.Config: dotCMS Properties [dotcms-config-cluster.properties] Loaded
+[21/09/20 22:04:34:298 GMT]  INFO util.Config: Assigned default refresh: 5 minutes.
+[21/09/20 22:04:34:312 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[21/09/20 22:04:34:821 GMT]  INFO business.CacheLocator: loading cache administrator: com.dotmarketing.business.ChainableCacheAdministratorImpl
+[21/09/20 22:04:35:272 GMT]  WARN hikari.HikariConfig: jdbc/dotCMSPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[21/09/20 22:04:35:275 GMT]  INFO hikari.HikariDataSource: jdbc/dotCMSPool - Starting...
